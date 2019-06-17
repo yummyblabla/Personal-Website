@@ -1,3 +1,28 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #343a40;
+}
+
+h1 {
+  font-size: 6rem;
+  line-height: 5.5rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
 .fade-enter {
 	opacity: 0;
 	z-index: 1;
@@ -11,18 +36,20 @@
 .App {
 	display: flex;
 	flex-direction: column;
-	background-color: #379683;
+	/* background-color: #379683; */
 }
 
 .navbar {
-	background-color: #5d5c61;
+	background-color: #003366;
+	font-family: "Muli";
 }
 
 .container {
 	padding: 10px 0;
-	background-color: #379683;
+	background-color: #fff;
 	height: 100%;
 	width: 100%;
+	font-family: 'Saira Extra Condensed';
 }
 
 .linkContainer {
@@ -30,21 +57,26 @@
 }
 
 .link {
-	color: #7395ae;
+	color: rgba(255,255,255,.50);
 	display: block;
 	padding: 0.5rem 1rem;
 	padding-right: 0.5rem;
 	padding-left: 0.5rem;
 	text-decoration: none;
+	font-weight: 800;
+	letter-spacing: .05rem;
+	text-transform: uppercase;
+	font-family: "Muli";
+	font-size: 1rem;
 }
 
 .link:hover {
-	color: #b1a296;
+	color: rgba(255,255,255,.70);
 	text-decoration: none;
 }
 
 .active {
-	color: #b1a296;
+	color: #fff;
 }
 
 .brand {
@@ -52,10 +84,14 @@
 	padding-top: 0.3125rem;
 	padding-bottom: 0.3125rem;
 	margin-right: 1rem;
-	font-size: 1.25rem;
+	font-size: 1.5rem;
 	line-height: inherit;
 	white-space: nowrap;
-	color: #379683;
+	color: #fff;
+	font-weight: 800;
+	letter-spacing: .05rem;
+	text-transform: uppercase;
+	font-family: "Muli";
 }
 
 .brandImage {
@@ -63,19 +99,19 @@
 	height: 40px;
 	border-radius: 50%;
 	margin-right: 10px;
-	-webkit-transition: width 2s height 2s; /* Safari */
+	/* -webkit-transition: width 2s height 2s;
 	transition: width 2s height 2s;
-	transition-timing-function: linear;
+	transition-timing-function: linear; */
 }
 
-.brandImage:hover {
+/* .brandImage:hover {
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 200px;
 	height: 200px;
 	z-index: 100;
-}
+} */
 
 .navbar-toggler-icon {
 	color: #ffffff !important;
@@ -84,4 +120,42 @@
 	color: #7395ae;
 	color: #557a95;
 	color: #b1a296;
+}
+
+.containerHeader {
+	font-weight: 800;
+	font-size: 3.5rem;
+	color: #003366;
+}
+
+
+.experienceSubHeader {
+	color: #868e96;
+	font-size: 1.5rem;
+	font-weight: 500;
+}
+
+p {
+	font-family: 'Muli';
+	color: #868e96;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	text-align: left;
+	margin-top: 0;
+	margin-bottom: 1rem;
+}
+
+
+.experienceDate {
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #003366;
+	font-family: 'Muli';
+	min-width: 18rem;
+}
+
+.aboutMeIcon {
+	margin-bottom: 1rem;
 }

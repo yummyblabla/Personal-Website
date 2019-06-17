@@ -59,12 +59,12 @@ class App extends Component {
 							<Route
 								path="/aboutme"
 								exact
-								render={props => <AboutMeComponent />}
+								render={() => <AboutMeComponent />}
 							/>
 							<Route
 								path="/portfolio"
 								exact
-								render={props => <PortfolioComponent />}
+								render={() => <PortfolioComponent />}
 							/>
 						</SwitchWithSlide>
 					</div>
