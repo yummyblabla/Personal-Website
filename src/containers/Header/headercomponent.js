@@ -1,28 +1,25 @@
-import React, { Component } from "react";
+import React, { PureComponent } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { LinkContainer, IndexLinkContainer } from "react-router-bootstrap";
+import { Link } from 'react-router-dom'
 import styles from "../../App.css";
 
-class HeaderComponent extends Component {
-	constructor(props) {
-		super(props);
-		this.state = {
-			open: true
-		};
-	}
-
+class HeaderComponent extends PureComponent {
 	render() {
-		const { open } = this.state;
 		return (
-			<Navbar className={styles.navbar} expand="sm">
+			<Navbar className={styles.navbar} expand="md">
 				<img
 					src={require("../../assets/profile.png")}
 					className="brandImage"
 					alt="Profile Pic"
 				/>
-				<Navbar.Brand bsPrefix="brand">Derrick Lee</Navbar.Brand>
+				<Navbar.Brand bsPrefix="brand">
+					<Link to="/" className="brandText">
+						Derrick Lee
+					</Link>
+				</Navbar.Brand>
 				<Navbar.Toggle aria-controls="basic-navbar-nav" />
 				<Navbar.Collapse id="basic-navbar-nav">
 					<Nav className="mr-auto">
@@ -45,17 +42,20 @@ class HeaderComponent extends Component {
 							bsPrefix="link"
 						>
 							<LinkContainer to="/portfolio">
-								<NavDropdown.Item>All</NavDropdown.Item>
+								<NavDropdown.Item>See All</NavDropdown.Item>
 							</LinkContainer>
 							<NavDropdown.Divider />
-							<LinkContainer to="/portfolio">
-								<NavDropdown.Item>Project 1</NavDropdown.Item>
+							<LinkContainer to="/bigtwo">
+								<NavDropdown.Item>Big Two</NavDropdown.Item>
 							</LinkContainer>
-							<LinkContainer to="/portfolio">
-								<NavDropdown.Item>Project 2</NavDropdown.Item>
+							<LinkContainer to="/studybreak">
+								<NavDropdown.Item>StudyBreak</NavDropdown.Item>
 							</LinkContainer>
-							<LinkContainer to="/portfolio">
-								<NavDropdown.Item>Project 3</NavDropdown.Item>
+							<LinkContainer to="/minesweeper">
+								<NavDropdown.Item>Minesweeper</NavDropdown.Item>
+							</LinkContainer>
+							<LinkContainer to="/clickaccuracygame">
+								<NavDropdown.Item>Clicking Accuracy Game</NavDropdown.Item>
 							</LinkContainer>
 						</NavDropdown>
 						<LinkContainer

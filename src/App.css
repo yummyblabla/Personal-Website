@@ -23,6 +23,18 @@ h3 {
   font-size: 2rem;
 }
 
+.primary {
+	color: #003366;
+}
+
+.subheading {
+	text-transform: uppercase;
+  	font-weight: 600;
+  	font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  	font-size: 1.5rem;
+	color: #868e96;
+}
+
 .fade-enter {
 	opacity: 0;
 	z-index: 1;
@@ -42,6 +54,18 @@ h3 {
 .navbar {
 	background-color: #003366;
 	font-family: "Muli";
+}
+
+.social-icons a {
+	display: inline-block;
+	color: #495057 !important;
+	font-size: 1rem;
+	margin-right: 1rem;
+}
+
+.icons {
+	display: inline-block;
+	margin-right: 1rem;
 }
 
 .container {
@@ -87,11 +111,21 @@ h3 {
 	font-size: 1.5rem;
 	line-height: inherit;
 	white-space: nowrap;
-	color: #fff;
+	
 	font-weight: 800;
 	letter-spacing: .05rem;
 	text-transform: uppercase;
 	font-family: "Muli";
+}
+
+.brandText {
+	text-decoration: none;
+	color: #fff;
+}
+
+.brandText:hover {
+	color: #fff;
+	text-decoration: none;
 }
 
 .brandImage {
