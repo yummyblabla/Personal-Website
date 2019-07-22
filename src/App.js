@@ -1,78 +1,67 @@
-import React, { PureComponent } from "react";
+import React from "react";
 import "./App.css";
 
-import HeaderComponent from "./containers/Header/headercomponent";
-import MainComponent from "./containers/Main/maincomponent";
-import ExperienceComponent from "./containers/Experience/experiencecomponent";
+import Header from "./containers/Header/index";
+import Links from "./containers/Links/index";
+import Home from "./containers/Home/index";
+import Footer from './containers/Footer/index';
+import Portfolio from "./containers/Portfolio/index";
 import AboutMeComponent from "./containers/AboutMe/aboutmecomponent";
-import PortfolioComponent from "./containers/Portfolio/portfoliocomponent";
 
-import BigTwoComponent from "./containers/Portfolio/BigTwo/bigtwocomponent";
-import StudyBreakComponent from "./containers/Portfolio/StudyBreak/studybreakcomponent";
-import MinesweeperComponent from "./containers/Portfolio/Minesweeper/minesweepercomponent";
-import ClickAccuracyComponent from "./containers/Portfolio/ClickAccuracy/clickaccuracycomponent";
+import BigTwo from "./containers/Portfolio/BigTwo/index";
+import StudyBreak from "./containers/Portfolio/StudyBreak/index";
+import Minesweeper from "./containers/Portfolio/Minesweeper/index";
+import AccuracyGame from "./containers/Portfolio/AccuracyGame/index";
 
-import { Route, Switch, withRouter } from "react-router-dom";
+import { BrowserRouter as Router, Route, withRouter } from "react-router-dom";
 
-import { SlideOut } from "./containers/Slider/SlideOut";
-import { animateSwitch } from "./containers/Slider/animateSwitch";
 
-const SwitchWithSlide = animateSwitch(Switch, SlideOut);
-
-class App extends PureComponent {
-	render() {
-		return (
+function App() {
+	return (
+		<Router>
 			<div className="App">
-				<HeaderComponent />
-				<React.Fragment>
-					<div className="container">
-						<SwitchWithSlide>
-							<Route
-								path="/"
-								exact
-								render={() => <MainComponent />}
-							/>
-							<Route
-								path="/experience"
-								exact
-								render={() => <ExperienceComponent />}
-							/>
-							<Route
-								path="/aboutme"
-								exact
-								render={() => <AboutMeComponent />}
-							/>
-							<Route
-								path="/portfolio"
-								exact
-								render={() => <PortfolioComponent />}
-							/>
-							<Route
-								path="/bigtwo"
-								exact
-								render={() => <BigTwoComponent />}
-							/>
-							<Route
-								path="/studybreak"
-								exact
-								render={() => <StudyBreakComponent />}
-							/>
-							<Route
-								path="/minesweeper"
-								exact
-								render={() => <MinesweeperComponent />}
-							/>
-							<Route
-								path="/clickaccuracygame"
-								exact
-								render={() => <ClickAccuracyComponent />}
-							/>
-						</SwitchWithSlide>
-					</div>
-				</React.Fragment>
+				<Header />
+				<Links />
+				<Route 
+					path="/"
+					exact
+					render={() => <Home />}
+				/>
+				<Route
+					path="/portfolio"
+					exact
+					render={() => <Portfolio />}
+				/>
+				<Route
+					path="/aboutme"
+					exact
+					render={() => <AboutMeComponent />}
+				/>
+				<Route
+					path="/portfolio/bigtwo"
+					exact
+					render={() => <BigTwo />}
+				/>
+				<Route
+					path="/portfolio/studybreak"
+					exact
+					render={() => <StudyBreak />}
+				/>
+				<Route
+					path="/portfolio/minesweeper"
+					exact
+					render={() => <Minesweeper />}
+				/>
+				<Route
+					path="/portfolio/accuracygame"
+					exact
+					render={() => <AccuracyGame />}
+				/>
+				<Footer />
 			</div>
-		);
-	}
+			
+		</Router>
+	);
 }
 
 export default withRouter(App);

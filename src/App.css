@@ -7,16 +7,15 @@ h6 {
   font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-weight: 700;
   text-transform: uppercase;
-  color: #343a40;
 }
 
 h1 {
-  font-size: 6rem;
+  font-size: 5.5rem;
   line-height: 5.5rem;
 }
 
 h2 {
-  font-size: 3.5rem;
+  font-size: 2.75rem;
 }
 
 h3 {
@@ -25,14 +24,6 @@ h3 {
 
 .primary {
 	color: #003366;
-}
-
-.subheading {
-	text-transform: uppercase;
-  	font-weight: 600;
-  	font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  	font-size: 1.5rem;
-	color: #868e96;
 }
 
 .fade-enter {
@@ -45,16 +36,7 @@ h3 {
 	transition: opacity 250ms ease-in;
 }
 
-.App {
-	display: flex;
-	flex-direction: column;
-	/* background-color: #379683; */
-}
 
-.navbar {
-	background-color: #003366;
-	font-family: "Muli";
-}
 
 .social-icons a {
 	display: inline-block;
@@ -65,11 +47,17 @@ h3 {
 
 .icons {
 	display: inline-block;
-	margin-right: 1rem;
+	margin: 10px;
+}
+
+.icon {
+	width: 60px;
+	height: 60px;
+	margin: 5px;
 }
 
 .container {
-	padding: 10px 0;
+/*	padding: 10px 0;*/
 	background-color: #fff;
 	height: 100%;
 	width: 100%;
@@ -118,35 +106,6 @@ h3 {
 	font-family: "Muli";
 }
 
-.brandText {
-	text-decoration: none;
-	color: #fff;
-}
-
-.brandText:hover {
-	color: #fff;
-	text-decoration: none;
-}
-
-.brandImage {
-	width: 40px;
-	height: 40px;
-	border-radius: 50%;
-	margin-right: 10px;
-	/* -webkit-transition: width 2s height 2s;
-	transition: width 2s height 2s;
-	transition-timing-function: linear; */
-}
-
-/* .brandImage:hover {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 200px;
-	height: 200px;
-	z-index: 100;
-} */
-
 .navbar-toggler-icon {
 	color: #ffffff !important;
 	color: #5d5c61;
@@ -169,27 +128,145 @@ h3 {
 	font-weight: 500;
 }
 
-p {
+p, li {
 	font-family: 'Muli';
-	color: #868e96;
 	font-size: 1rem;
 	font-weight: 400;
 	line-height: 1.5;
 	text-align: left;
 	margin-top: 0;
-	margin-bottom: 1rem;
+	margin-bottom: 0;
+}
+
+/* NavBar */
+.navbar {
+	background-color: #003366;
+	font-family: "Muli";
+}
+
+.brandText {
+	text-decoration: none;
+	color: #fff;
+}
+
+.brandText:hover {
+	color: #fff;
+	text-decoration: none;
 }
 
 
-.experienceDate {
-	font-size: 1rem;
-	font-weight: 400;
-	line-height: 1.5;
-	color: #003366;
-	font-family: 'Muli';
-	min-width: 18rem;
+/* Home */
+.intro {
+	background-color: #F8F8F8;
+	width: 100vw;
+	height: calc(100vh - 76px);
 }
 
-.aboutMeIcon {
-	margin-bottom: 1rem;
+.introTitle {
+	padding-top: 30vh;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.item {
+	background-color: #F8F8F8;
+	margin: 10px;
+}
+
+.subheading {
+	text-transform: uppercase;
+  	font-weight: 500;
+  	font-size: 1.25rem;
+	color: #868e96;
+}
+
+.profilePic {
+	width: 15rem;
+	height: 15rem;
+}
+
+/* Links */
+.links {
+	position: fixed;
+	right: 0;
+	top: 50%;
+	margin-right: 10px;
+	transform: translateY(-50%);
+	z-index: 1;
+}
+
+.linkIcon {
+	width: 30px;
+	height: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/* Footer */
+.footer {
+	background-color: #323232;
+	color: #fff;
+	width: 100%;
+}
+
+.footerLink {
+	color: gray;
+}
+
+.footer-menu {
+	display: flex;
+}
+
+.footerIcons {
+	background-color: gray;
+}
+
+.footerIcon {
+	width: 30px;
+	height: 30px;
+	margin: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .links {
+    display: none;
+  }
+  .linkIcon {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footerIcons {
+    display: none;
+  }
+  .footerIcon {
+    display: none;
+  }
+}
+
+/* Card */
+.card {
+	max-width: 300px;
+	box-shadow: 3px 3px 5px #ccc;
+}
+
+
+/* Portfolio Page */
+.date {
+	border-bottom: 1px dotted #ccc;
+}
+
+.techstack {
+	border-bottom: 1px dotted #ccc;
+}
+
+.techstackimage {
+	width: 50px;
+	height: 50px;
+}
+
+.githubButton {
+	width: 20px;
+	height: 20px;
 }
