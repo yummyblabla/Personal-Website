@@ -49,7 +49,7 @@ export default function Home() {
 										<p>I am currently a BCIT CST student looking to make my first mark in the developing world. With the skills and experience I have gained from collaborative projects and hands-on learning, I am motivated to learn more and improve myself to make a contribution to the world.</p>
 									</Col>
 									<Col md={4} className="order-1 order-sm-1 text-center">
-										<Image src={require("./../../assets/profile.png")} className="profilePic mb-3" roundedCircle />
+										<Image src={require("./../../assets/profile.jpeg")} className="profilePic mb-3" roundedCircle />
 									</Col>
 								</Row>
 							</Container>
@@ -124,12 +124,12 @@ export default function Home() {
 								<h3 className="text-center mt-3 mb-3">Education</h3>
 
 								<h4>British Columbia Institute of Technology</h4>
-								<div class="subheading mb-3">Diploma, Computer Systems Technology</div>
+								<div className="subheading mb-3">Diploma, Computer Systems Technology</div>
 								<p>Specialization: Cloud Computing</p>
 								<p className="mb-3">September 2018 - Present</p>
 
 								<h4>University of British Columbia</h4>
-								<div class="subheading mb-3">Bachelor of Science</div>
+								<div className="subheading mb-3">Bachelor of Science</div>
 								<p>Specializations: Mathematics, Chemistry, Life Sciences</p>
 								<p className="mb-3">Completed April 2015</p>
 							</section>

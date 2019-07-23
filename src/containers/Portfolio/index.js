@@ -20,7 +20,7 @@ export default function Portfolio() {
           			<Col sm>
           				<Card
 			  				title="Big Two"
-			  				imageName="bigtwo.png"
+			  				imageName="bigtwo.jpeg"
 			  				to="./portfolio/bigtwo"
 			  				description="Pixi.js + Vue.js + WebSocket"
 			  			/>
@@ -28,7 +28,7 @@ export default function Portfolio() {
           			<Col sm>
           				<Card
 			  				title="Study Break"
-			  				imageName="studybreak.png"
+			  				imageName="studybreak.jpeg"
 			  				to="./portfolio/studybreak"
 			  				description="Android Studio Code + Java"
 			  			/>
@@ -38,7 +38,7 @@ export default function Portfolio() {
           			<Col sm>
           				<Card
 			  				title="Minesweeper"
-			  				imageName="minesweeper.png"
+			  				imageName="minesweeper.jpeg"
 			  				to="./portfolio/minesweeper"
 			  				description="HTML5 Canvas + JavaScript + Bootstrap + Firebase"
 			  			/>
@@ -46,7 +46,7 @@ export default function Portfolio() {
           			<Col sm>
           				<Card
 			  				title="Mouse Click Accuracy Game"
-			  				imageName="game.png"
+			  				imageName="game.jpeg"
 			  				to="./portfolio/accuracygame"
 			  				description="HTML5 Canvas + JavaScript"
 			  			/>
