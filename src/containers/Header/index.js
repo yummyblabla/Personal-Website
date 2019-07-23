@@ -5,7 +5,6 @@ import Nav from "react-bootstrap/Nav";
 import { LinkContainer, IndexLinkContainer } from "react-router-bootstrap";
 
 import { Link } from 'react-router-dom';
-import styles from "../../App.css";
 
 export default function Header() {
 	return (
@@ -33,10 +32,10 @@ export default function Header() {
 						<Nav.Link bsPrefix="link">Portfolio</Nav.Link>
 					</IndexLinkContainer>
 					<LinkContainer
-						to="/aboutme"
+						to="/contact"
 						style={{ textDecoration: "none" }}
 					>
-						<Nav.Link bsPrefix="link">About Me</Nav.Link>
+						<Nav.Link bsPrefix="link">Contact</Nav.Link>
 					</LinkContainer>
 				</Nav>
 			</Navbar.Collapse>

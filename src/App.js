@@ -6,22 +6,22 @@ import Links from "./containers/Links/index";
 import Home from "./containers/Home/index";
 import Footer from './containers/Footer/index';
 import Portfolio from "./containers/Portfolio/index";
-import AboutMeComponent from "./containers/AboutMe/aboutmecomponent";
+import Contact from "./containers/Contact/index";
 
 import BigTwo from "./containers/Portfolio/BigTwo/index";
 import StudyBreak from "./containers/Portfolio/StudyBreak/index";
 import Minesweeper from "./containers/Portfolio/Minesweeper/index";
 import AccuracyGame from "./containers/Portfolio/AccuracyGame/index";
 
-import { BrowserRouter as Router, Route, withRouter } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 
-function App() {
+export default function App() {
 	return (
-		<Router>
-			<div className="App">
-				<Header />
-				<Links />
+		<BrowserRouter>
+			<Header />
+			<Links />
+			<Switch>
 				<Route 
 					path="/"
 					exact
@@ -33,9 +33,9 @@ function App() {
 					render={() => <Portfolio />}
 				/>
 				<Route
-					path="/aboutme"
+					path="/contact"
 					exact
-					render={() => <AboutMeComponent />}
+					render={() => <Contact />}
 				/>
 				<Route
 					path="/portfolio/bigtwo"
@@ -57,11 +57,11 @@ function App() {
 					exact
 					render={() => <AccuracyGame />}
 				/>
-				<Footer />
-			</div>
+				
+			</Switch>
+			<Footer />
 			
-		</Router>
+
+		</BrowserRouter>
 	);
 }
-
-export default withRouter(App);

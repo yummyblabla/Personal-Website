@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -6,15 +6,19 @@ import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 import Button from "react-bootstrap/Button";
 
-import { faGithubSquare } from "@fortawesome/free-brands-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Minesweeper() {
+	useEffect(() => {
+		window.scrollTo(0, 0);
+	});
+
 	return (
-		<Container>
+		<Container className="fixFooter">
 			<Row>
 				<Col sm className="mt-5">
-					An image
+					<Image src={require("./../../../assets/mockups/minesweeper.png")} className="mockupImage" />
 				</Col>
 
 				<Col sm className="mt-5">
@@ -40,7 +44,7 @@ export default function Minesweeper() {
 						</a>
 						<a href="https://github.com/yummyblabla/MinesweeperGame">
 							<Button variant="outline-primary">
-								<Image src={require("./../../../assets/icons/github.svg")} className="githubButton mr-1" />
+								<FontAwesomeIcon icon={faGithub} className="mr-1" />
 								GitHub
 							</Button>
 						</a>
@@ -52,17 +56,6 @@ export default function Minesweeper() {
 		        	</div>
 				</Col>
 			</Row>
-
-			<Row>
-				<Col sm>
-					
-				</Col>
-
-				<Col sm>
-					
-				</Col>
-			</Row>
 		</Container>
-		
 	);
 };

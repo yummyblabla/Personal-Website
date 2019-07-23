@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -6,15 +6,19 @@ import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 import Button from "react-bootstrap/Button";
 
-import { faGithubSquare } from "@fortawesome/free-brands-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function AccuracyGame() {
+	useEffect(() => {
+		window.scrollTo(0, 0);
+	});
+
 	return (
-		<Container>
+		<Container className="fixFooter">
 			<Row>
-				<Col sm className="mt-5">
-					An image
+				<Col sm className="mt-5 p-4">
+					<Image src={require("./../../../assets/mockups/accuracygame.png")} className="mockupImage" />
 				</Col>
 
 				<Col sm className="mt-5">
@@ -37,7 +41,7 @@ export default function AccuracyGame() {
 						</a>
 						<a href="https://github.com/yummyblabla/Mouse-Accuracy-Game">
 							<Button variant="outline-primary">
-								<Image src={require("./../../../assets/icons/github.svg")} className="githubButton mr-1" />
+								<FontAwesomeIcon icon={faGithub} className="mr-1" />
 								GitHub
 							</Button>
 						</a>
@@ -47,16 +51,6 @@ export default function AccuracyGame() {
 						<p className="mb-0">Sound belongs to Mike Koenig on <a href="http://soundbible.com/">SoundBible</a></p>
 		        		<p className="mb-0">Art belongs to <a href="mailto:hopstarter@gmail.com">Jojo Mendosa</a> on <a href="https://www.deviantart.com/hopstarter">DevianArt</a></p>
 					</div>
-				</Col>
-			</Row>
-
-			<Row>
-				<Col sm>
-					
-				</Col>
-
-				<Col sm>
-					
 				</Col>
 			</Row>
 		</Container>
