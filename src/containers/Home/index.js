@@ -82,7 +82,6 @@ export default function Home() {
 									<Image src={require("./../../assets/icons/git.svg")} className="icon" />
 								</div>
 							</section>
-							
 						</Col>
 
 						<Col sm className="item">

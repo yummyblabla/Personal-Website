@@ -42,17 +42,16 @@ export default function Contact() {
 						<h3 className="my-3">Links</h3>
 						<p className="mb-3">You can contact me on whichever platform you find convenient below.</p>
 						<a href="https://www.linkedin.com/in/derricklee91">
-							<Image src={require("./../../assets/icons/linkedin.svg")} className="linkIcon" />
-							<p>Linkedin</p>
+							<Image src={require("./../../assets/icons/linkedin.svg")} className="linkIcon mr-3" />
+							<span className="text">Linkedin</span>
 						</a>
-						<p>
-							<Image src={require("./../../assets/icons/gmail.svg")} className="linkIcon" />
-							E-mail:
+						<div>
+							<Image src={require("./../../assets/icons/gmail.svg")} className="linkIcon mr-3" />
+							<span className="text">E-mail: </span>
 							<a href="mailto:derricklee91@gmail.com">
-								
-								<p> derricklee91@gmail.com</p>
+								<span className="text">derricklee91@gmail.com</span>
 							</a>
-						</p>
+						</div>
 						
 						
 					</Col>

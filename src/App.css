@@ -82,7 +82,7 @@ h3 {
 	font-family: "Muli";
 }
 
-p, li {
+p, li, .text {
 	font-family: 'Muli';
 	font-size: 1rem;
 	font-weight: 400;
@@ -118,7 +118,7 @@ p, li {
 
 .introTitle {
 	padding-top: 30vh;
-	padding-left: 30px;
+	padding-left: 10vw;
 	padding-right: 30px;
 }
 

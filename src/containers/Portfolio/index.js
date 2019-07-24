@@ -22,7 +22,7 @@ export default function Portfolio() {
 			  				title="Big Two"
 			  				imageName="bigtwo.jpeg"
 			  				to="./portfolio/bigtwo"
-			  				description="Pixi.js + Vue.js + WebSocket"
+			  				description="PixiJS + Vue.js + WebSockets"
 			  			/>
           			</Col>
           			<Col sm>
