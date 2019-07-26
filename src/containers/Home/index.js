@@ -93,7 +93,9 @@ export default function Home() {
 									Reva Solutions | May 2019 - December 2019
 								</span>
 								<ul className="mb-3">
-									<li>Something</li>
+									<li>Designed and built a full stack web application using React.js, Node.js and Elastic Search</li>
+									<li>Implemented new features and improvements in an engaging fashion</li>
+									<li>Demonstrated attention to detail and applied best practices in code</li>
 								</ul>
 
 								<h4>Quality Control Chemist</h4>
