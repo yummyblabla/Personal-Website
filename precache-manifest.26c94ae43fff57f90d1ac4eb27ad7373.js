@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5db3e9b32af72bf64fb0a5ea6bdbf4d9",
+    "revision": "668d0a7e71bb84c0b4abbb62340381b0",
     "url": "/index.html"
   },
   {
-    "revision": "9ec1e321732601c0ba91",
-    "url": "/static/css/2.266e55a5.chunk.css"
+    "revision": "bdd4b5e2f95f246b04e2",
+    "url": "/static/css/2.b0bb7f2c.chunk.css"
   },
   {
-    "revision": "895a6110bfcb7545ed78",
+    "revision": "88a97c4f9bff7aa4e155",
     "url": "/static/css/main.9da2ab50.chunk.css"
   },
   {
-    "revision": "9ec1e321732601c0ba91",
-    "url": "/static/js/2.3a2ae398.chunk.js"
+    "revision": "bdd4b5e2f95f246b04e2",
+    "url": "/static/js/2.75cf7b9b.chunk.js"
   },
   {
-    "revision": "895a6110bfcb7545ed78",
-    "url": "/static/js/main.94de7f7f.chunk.js"
+    "revision": "88a97c4f9bff7aa4e155",
+    "url": "/static/js/main.fc536a8b.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -58,6 +58,22 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2d54234f620b773e1ac7fea1dce17624",
     "url": "/static/media/bigtwo_2.2d54234f.png"
+  },
+  {
+    "revision": "039617c0f75bb6a190bf3fce9ca9bbeb",
+    "url": "/static/media/bike2go.039617c0.png"
+  },
+  {
+    "revision": "4754ea0070b98b1f0e196d4c48a390d3",
+    "url": "/static/media/bike2go.4754ea00.jpg"
+  },
+  {
+    "revision": "1f6319e3a0061ea07bac01f760784a81",
+    "url": "/static/media/bike2go_1.1f6319e3.png"
+  },
+  {
+    "revision": "f94609ace62d216d4d930ae7db26a9ab",
+    "url": "/static/media/bike2go_2.f94609ac.png"
   },
   {
     "revision": "96c4e9a4ffc87798194a606efd34a270",
@@ -122,6 +138,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "27b0eaaafe77b376d8bf159a87fe36aa",
     "url": "/static/media/mysql.27b0eaaa.svg"
+  },
+  {
+    "revision": "e48e27f9d0eab488e665d8513578dfb5",
+    "url": "/static/media/nextjs.e48e27f9.svg"
   },
   {
     "revision": "be2df79601b32143d336bd076429b909",
