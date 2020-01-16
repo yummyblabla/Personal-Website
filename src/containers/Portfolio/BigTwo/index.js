@@ -25,7 +25,7 @@ export default function BigTwo() {
           <h2>Big Two</h2>
           <h4>HTML5 Game</h4>
 
-          <p className="date py-2"><b className="mr-5">Date</b> October 2018</p>
+          <p className="date py-2"><b className="mr-5">Date</b> December 2019 - Present</p>
           <div className="techstack d-flex py-2 mb-4">
             <p className="mr-5"><b>Tech Stack</b></p>
             <Image src={require('./../../../assets/icons/html5.svg')} className="techstackimage" />
@@ -37,16 +37,17 @@ export default function BigTwo() {
           <p className="mb-3">
             As a personal project, I wanted to make a game that I knew very well and would enjoy playing online. As a result, I decided to make <a href="https://en.wikipedia.org/wiki/Big_two">Big Two</a>, which is a popular Chinese card game that only requires a deck of regular playing cards.
           </p>
-          <p className="mb-3">I used Vue.js to handle game lobbies and used PixiJS for the actual game. WebSockets was chosen to handle requests from clients to simulate real-time gameplay. </p>
+          <p className="mb-3">I used PixiJS for rendering the actual game and React for other UI elements, such as login and lobby. Socket.io was chosen to handle and simulate real-time gameplay as players could exchange information with the server and others more easily in a fast paced game. </p>
 
-          <div className="mb-5">
+          <p className="mb-3">Still in development. Working link coming soon!</p>
+          {/* <div className="mb-5">
             <a href="https://github.com/yummyblabla/BigTwo">
               <Button variant="outline-primary">
                 <FontAwesomeIcon icon={faGithub} className="mr-1" />
                 GitHub
               </Button>
             </a>
-          </div>
+          </div> */}
 
           <div className="mb-5">
             <p class="mb-0">

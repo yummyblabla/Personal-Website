@@ -91,9 +91,9 @@ export default function Home() {
               <section id="experience">
                 <h3 className="text-center mt-3 mb-3">Work Experience</h3>
 
-                <h4 className="">Junior Software Developer</h4>
+                <h4 className="">Software Developer</h4>
                 <span className="subheading">
-                  Reva Solutions | May 2019 - December 2019
+                  Reva Solutions | May 2019 - Present
                 </span>
                 <ul className="mb-3">
                   <li>Designed and built a full stack web application using React.js, Node.js and Elastic Search</li>
@@ -129,8 +129,9 @@ export default function Home() {
 
                 <h4>British Columbia Institute of Technology</h4>
                 <div className="subheading mb-3">Diploma, Computer Systems Technology</div>
-                <p>Specialization: Cloud Computing</p>
+                <p>Specialization: Predictive Analytics</p>
                 <p className="mb-3">September 2018 - Present</p>
+                <p className="mb-3">Expected Graduation: December 2020</p>
 
                 <h4>University of British Columbia</h4>
                 <div className="subheading mb-3">Bachelor of Science</div>

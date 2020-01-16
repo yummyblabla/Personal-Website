@@ -11,10 +11,10 @@ import Portfolio from './containers/Portfolio/index';
 import Contact from './containers/Contact/index';
 
 import Bike2Go from './containers/Portfolio/Bike2Go';
-import BigTwo from './containers/Portfolio/BigTwo/index';
-import StudyBreak from './containers/Portfolio/StudyBreak/index';
-import Minesweeper from './containers/Portfolio/Minesweeper/index';
-import AccuracyGame from './containers/Portfolio/AccuracyGame/index';
+import BigTwo from './containers/Portfolio/BigTwo';
+import StudyBreak from './containers/Portfolio/StudyBreak';
+import Minesweeper from './containers/Portfolio/Minesweeper';
+import AccuracyGame from './containers/Portfolio/AccuracyGame';
 
 
 export default function App() {

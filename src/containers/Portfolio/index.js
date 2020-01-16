@@ -17,18 +17,17 @@ export default function Portfolio() {
         <h2 className="mb-5 mt-5 text-center">Portfolio</h2>
         <Row>
           <Card
+            title="Big Two"
+            imageName="bigtwo.jpeg"
+            to="./portfolio/bigtwo"
+            description="React + NextJS + Socket.io"
+          />
+          <Card
             title="Bike2Go"
             imageName="bike2go.jpg"
             to="./portfolio/bike2go"
             description="React + NextJS"
           />
-          <Card
-            title="Big Two"
-            imageName="bigtwo.jpeg"
-            to="./portfolio/bigtwo"
-            description="PixiJS + Vue.js + WebSockets"
-          />
-
           <Card
             title="Study Break"
             imageName="studybreak.jpeg"
