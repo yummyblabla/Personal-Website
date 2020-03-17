@@ -30,7 +30,7 @@ export default function BigTwo() {
             <p className="mr-5"><b>Tech Stack</b></p>
             <Image src={require('./../../../assets/icons/html5.svg')} className="techstackimage" />
             <Image src={require('./../../../assets/icons/javascript.svg')} className="techstackimage" />
-            <Image src={require('./../../../assets/icons/vue-dot-js.svg')} className="techstackimage" />
+            <Image src={require('./../../../assets/icons/react.svg')} className="techstackimage" />
             <Image src={require('./../../../assets/icons/node-dot-js.svg')} className="techstackimage" />
           </div>
 
@@ -39,7 +39,10 @@ export default function BigTwo() {
           </p>
           <p className="mb-3">I used PixiJS for rendering the actual game and React for other UI elements, such as login and lobby. Socket.io was chosen to handle and simulate real-time gameplay as players could exchange information with the server and others more easily in a fast paced game. </p>
 
-          <p className="mb-3">Still in development. Working link coming soon!</p>
+          <p className="mb-3">
+            You can try it out at&nbsp;
+            <a href="https://bigtwo.io">BigTwo.io</a>
+          </p>
           {/* <div className="mb-5">
             <a href="https://github.com/yummyblabla/BigTwo">
               <Button variant="outline-primary">
