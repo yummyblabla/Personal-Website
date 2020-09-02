@@ -10,6 +10,8 @@ import Footer from './containers/Footer/index';
 import Portfolio from './containers/Portfolio/index';
 import Contact from './containers/Contact/index';
 
+import Mahjong from './containers/Portfolio/Mahjong';
+import Yalty from './containers/Portfolio/Yalty';
 import Bike2Go from './containers/Portfolio/Bike2Go';
 import BigTwo from './containers/Portfolio/BigTwo';
 import StudyBreak from './containers/Portfolio/StudyBreak';
@@ -67,6 +69,16 @@ export default function App() {
           path="/portfolio/bike2go"
           exact
           render={() => <Bike2Go />}
+        />
+        <Route
+          path="/portfolio/yalty"
+          exact
+          render={() => <Yalty />}
+        />
+        <Route
+          path="/portfolio/mahjong"
+          exact
+          render={() => <Mahjong />}
         />
       </Switch>
       <Footer />

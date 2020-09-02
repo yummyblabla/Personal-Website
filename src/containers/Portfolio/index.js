@@ -17,6 +17,18 @@ export default function Portfolio() {
         <h2 className="mb-5 mt-5 text-center">Portfolio</h2>
         <Row>
           <Card
+            title="Multiplayer Mahjong"
+            imageName="mahjong.png"
+            to="./portfolio/mahjong"
+            description="AWS Serverless + React + WebSocket"
+          />
+          <Card
+            title="Yalty User Management"
+            imageName="yalty.png"
+            to="./portfolio/yalty"
+            description="AWS Serverless + React + CICD"
+          />
+          <Card
             title="Big Two"
             imageName="bigtwo.jpeg"
             to="./portfolio/bigtwo"

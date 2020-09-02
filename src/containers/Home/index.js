@@ -47,6 +47,8 @@ export default function Home() {
                 <Row>
                   <Col md={8} className="order-2 order-sm-12">
                     <p>I am currently a BCIT CST student looking to make my first mark in the developing world. With the skills and experience I have gained from collaborative projects and hands-on learning, I am motivated to learn more and improve myself to make a contribution to the world.</p>
+                    <br />
+                    <p>I also have a certified AWS Solutions Architect Associate that was completed in June 2020.</p>
                   </Col>
                   <Col md={4} className="order-1 order-sm-1 text-center">
                     <Image src={require('./../../assets/profile.jpeg')} className="profilePic mb-3" roundedCircle />
@@ -96,9 +98,11 @@ export default function Home() {
                   Reva Solutions | May 2019 - Present
                 </span>
                 <ul className="mb-3">
-                  <li>Designed and built a full stack web application using React.js, Node.js and Elastic Search</li>
-                  <li>Implemented new features and improvements in an engaging fashion</li>
-                  <li>Demonstrated attention to detail and applied best practices in code</li>
+                  <li>Developed and maintained a full-stack business application using ReactJS, Redux, Node.js, and Elastic Search to manage files and contracts</li>
+                  <li>Developed the company’s first AWS serverless application that serves as a customer portal for sharing loan files</li>
+                  <li>Developed and supported custom full-stack applications for clients to meet their unique business requirements</li>
+                  <li>Participated in solutions design planning to address development requirements, and daily scrums to communicate progress and sync with the project team</li>
+                  <li>Demonstrated quick ability to learn new technologies of clients' businesses and other required technologies to meet their use cases</li>
                 </ul>
 
                 <h4>Quality Control Chemist</h4>
