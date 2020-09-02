@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b2c59df2e28271149070f8185b104679",
+    "revision": "1c86d19d460b31a40687a59cbe5bd091",
     "url": "/index.html"
   },
   {
-    "revision": "33b463320541a183a951",
+    "revision": "1f1835bdf3cf6d16ee64",
     "url": "/static/css/2.b0bb7f2c.chunk.css"
   },
   {
-    "revision": "b9a45fdd9ddde8ca8ed3",
+    "revision": "9c085c4f8c5836c1b860",
     "url": "/static/css/main.9da2ab50.chunk.css"
   },
   {
-    "revision": "33b463320541a183a951",
-    "url": "/static/js/2.53a05a49.chunk.js"
+    "revision": "1f1835bdf3cf6d16ee64",
+    "url": "/static/js/2.2e61d469.chunk.js"
   },
   {
-    "revision": "b9a45fdd9ddde8ca8ed3",
-    "url": "/static/js/main.2253174c.chunk.js"
+    "revision": "9c085c4f8c5836c1b860",
+    "url": "/static/js/main.653c0480.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -124,6 +124,22 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/linkedin.619231ff.svg"
   },
   {
+    "revision": "3d4da900d4b96e412a6dfe7f6437e24d",
+    "url": "/static/media/mahjong.3d4da900.png"
+  },
+  {
+    "revision": "f02c9a5f3eb6c018b9ee10d56b393a95",
+    "url": "/static/media/mahjong.f02c9a5f.png"
+  },
+  {
+    "revision": "72747e5487988298be3d6a855b4b63cd",
+    "url": "/static/media/mahjong_1.72747e54.jpg"
+  },
+  {
+    "revision": "f86c872cec0c8bce29a353bdf3cd928f",
+    "url": "/static/media/mahjong_2.f86c872c.jpg"
+  },
+  {
     "revision": "65e2ddc28443e79755453eff3da0815a",
     "url": "/static/media/minesweeper.65e2ddc2.png"
   },
@@ -192,7 +208,19 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/studybreak_4.71e1bead.png"
   },
   {
+    "revision": "594e5be420557bfcf2266ef02424fa54",
+    "url": "/static/media/terraform.594e5be4.svg"
+  },
+  {
     "revision": "69cedcf3d2b148bdce953a480caa57b1",
     "url": "/static/media/vue-dot-js.69cedcf3.svg"
+  },
+  {
+    "revision": "132d736209bf8964e30143213a6f608e",
+    "url": "/static/media/yalty.132d7362.png"
+  },
+  {
+    "revision": "9f2a34b36ca0b941a1992b44d4e03a4d",
+    "url": "/static/media/yalty.9f2a34b3.png"
   }
 ]);

@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.9da2ab50.chunk.css",
-    "main.js": "/static/js/main.2253174c.chunk.js",
-    "main.js.map": "/static/js/main.2253174c.chunk.js.map",
+    "main.js": "/static/js/main.653c0480.chunk.js",
+    "main.js.map": "/static/js/main.653c0480.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
     "static/css/2.b0bb7f2c.chunk.css": "/static/css/2.b0bb7f2c.chunk.css",
-    "static/js/2.53a05a49.chunk.js": "/static/js/2.53a05a49.chunk.js",
-    "static/js/2.53a05a49.chunk.js.map": "/static/js/2.53a05a49.chunk.js.map",
+    "static/js/2.2e61d469.chunk.js": "/static/js/2.2e61d469.chunk.js",
+    "static/js/2.2e61d469.chunk.js.map": "/static/js/2.2e61d469.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.40fd596107f2a546ed6921412dcb9ed5.js": "/precache-manifest.40fd596107f2a546ed6921412dcb9ed5.js",
+    "precache-manifest.4f981878cb8fa1c1bf1bf93f507096d1.js": "/precache-manifest.4f981878cb8fa1c1bf1bf93f507096d1.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.b0bb7f2c.chunk.css.map": "/static/css/2.b0bb7f2c.chunk.css.map",
     "static/css/main.9da2ab50.chunk.css.map": "/static/css/main.9da2ab50.chunk.css.map",
@@ -37,6 +37,9 @@
     "static/media/java.svg": "/static/media/java.bcfad0f2.svg",
     "static/media/javascript.svg": "/static/media/javascript.dd60b11e.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.619231ff.svg",
+    "static/media/mahjong.png": "/static/media/mahjong.f02c9a5f.png",
+    "static/media/mahjong_1.jpg": "/static/media/mahjong_1.72747e54.jpg",
+    "static/media/mahjong_2.jpg": "/static/media/mahjong_2.f86c872c.jpg",
     "static/media/minesweeper.png": "/static/media/minesweeper.a8e142d8.png",
     "static/media/minesweeper.jpeg": "/static/media/minesweeper.89a0bff7.jpeg",
     "static/media/mysql.svg": "/static/media/mysql.27b0eaaa.svg",
@@ -52,6 +55,8 @@
     "static/media/studybreak_2.png": "/static/media/studybreak_2.cb67ae1c.png",
     "static/media/studybreak_3.png": "/static/media/studybreak_3.fa6416fc.png",
     "static/media/studybreak_4.png": "/static/media/studybreak_4.71e1bead.png",
-    "static/media/vue-dot-js.svg": "/static/media/vue-dot-js.69cedcf3.svg"
+    "static/media/terraform.svg": "/static/media/terraform.594e5be4.svg",
+    "static/media/vue-dot-js.svg": "/static/media/vue-dot-js.69cedcf3.svg",
+    "static/media/yalty.png": "/static/media/yalty.9f2a34b3.png"
   }
 }
