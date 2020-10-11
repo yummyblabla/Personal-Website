@@ -46,9 +46,15 @@ export default function Home() {
               <Container>
                 <Row>
                   <Col md={8} className="order-2 order-sm-12">
-                    <p>I am currently a BCIT CST student looking to make my first mark in the developing world. With the skills and experience I have gained from collaborative projects and hands-on learning, I am motivated to learn more and improve myself to make a contribution to the world.</p>
+                    <p>
+                      I am currently a BCIT CST student looking to make my first mark in the developing world.
+                      With the skills and experience I have gained from collaborative projects and hands-on learning,
+                      I am motivated to learn more and improve myself to make a contribution to the world.
+                    </p>
                     <br />
-                    <p>I also have a certified AWS Solutions Architect Associate that was completed in June 2020.</p>
+                    <p>
+                      I also have a certification in  AWS Solutions Architect Associate that was completed in July 2020.
+                    </p>
                   </Col>
                   <Col md={4} className="order-1 order-sm-1 text-center">
                     <Image src={require('./../../assets/profile.jpeg')} className="profilePic mb-3" roundedCircle />
@@ -134,8 +140,8 @@ export default function Home() {
                 <h4>British Columbia Institute of Technology</h4>
                 <div className="subheading mb-3">Diploma, Computer Systems Technology</div>
                 <p>Specialization: Predictive Analytics</p>
-                <p className="mb-3">September 2018 - Present</p>
-                <p className="mb-3">Expected Graduation: December 2020</p>
+                <p className="mb-3">September 2018 - December 2020</p>
+                <p className="mb-3">GPA: 95%</p>
 
                 <h4>University of British Columbia</h4>
                 <div className="subheading mb-3">Bachelor of Science</div>
@@ -148,13 +154,31 @@ export default function Home() {
                 <h3 className="text-center mt-3 mb-3">Interests</h3>
 
                 <h4>Music</h4>
-                <p className="mb-3">I have played piano for many years ever since I was a child and will continue to do so for many decades to come. Classical has always stuck to me, though I have played some pop music as well. You can find my old content on my <a href="https://www.youtube.com/user/YummyBlaCha/">YouTube channel</a>.</p>
+                <p className="mb-3">
+                  I have played piano for many years ever since I was a child
+                  and will continue to do so for many decades to come. Classical has always stuck to me,
+                  though I have played some pop music as well. You can find my old content on
+                  my <a href="https://www.youtube.com/user/YummyBlaCha/">YouTube channel</a>
+                  .
+                </p>
 
                 <h4>Chess</h4>
-                <p className="mb-3">Chess has been a hobby of mine in the past few years as I like to keep my brain sharp and analytical. My main platform to play is Lichess.org and you can find my profiles here. <a href="https://lichess.org/@/yummyblabla">[1]</a> <a href="https://lichess.org/@/wolfsheep">[2]</a></p>
+                <p className="mb-3">
+                  Chess has been a hobby of mine in the past few years as
+                  I like to keep my brain sharp and analytical. My main platform
+                  to play is Lichess.org and you can find my profiles here.
+                  <a href="https://lichess.org/@/yummyblabla">[1]</a>
+                  <a href="https://lichess.org/@/wolfsheep">[2]</a>
+                </p>
 
                 <h4>Gaming</h4>
-                <p className="mb-3">I am also an avid gamer. As of now, I mainly play on my Nintendo Switch console.  However, my favourite game genre would be real time strategy, especially games on the PC like Starcraft, Warcraft, and Age of Empires.</p>
+                <p className="mb-3">
+                  I am also an avid gamer. As of now, I mainly play
+                  on my Nintendo Switch console.
+                  However, my favourite game genre would be real
+                  time strategy, especially games on the PC like Starcraft,
+                  Warcraft, and Age of Empires.
+                </p>
               </section>
             </Col>
           </Row>

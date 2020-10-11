@@ -42,9 +42,6 @@ export default function Bike2Go() {
           <p className="mb-3">We were successful in creating a fully functional application in such a short amount of time. Even though we did not win, we were proud of our accomplishment and also of the fact that we (team of 6) worked well together.</p>
 
           <div className="mb-5">
-            <a href="https://bike-to-go.herokuapp.com/">
-              <Button variant="primary" className="mr-2">Try Bike2Go!</Button>
-            </a>
             <a href="https://github.com/yummyblabla/Decode-Decongestion">
               <Button variant="outline-primary">
                 <FontAwesomeIcon icon={faGithub} className="mr-1" />
@@ -52,7 +49,6 @@ export default function Bike2Go() {
               </Button>
             </a>
           </div>
-          
         </Col>
       </Row>
       <Row className="mb-5 p-3">

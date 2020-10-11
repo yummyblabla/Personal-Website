@@ -25,7 +25,10 @@ export default function StudyBreak() {
           <h2>StudyBreak</h2>
           <h4>Android App</h4>
 
-          <p className="date py-2"><b className="mr-5">Date</b> January 2019</p>
+          <p className="date py-2">
+            <b className="mr-5">Date</b>
+            January 2019
+          </p>
           <div className="techstack d-flex py-2 mb-4">
             <p className="mr-5"><b>Tech Stack</b></p>
             <Image src={require('./../../../assets/icons/android.svg')} className="techstackimage" />

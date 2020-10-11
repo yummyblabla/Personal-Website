@@ -15,14 +15,17 @@ export default function Yalty() {
     <Container className="fixFooter">
       <Row>
         <Col sm className="mt-5 p-4 text-center">
-          <Image src={require('./../../../assets/mockups/yalty.png')} className="mobileImage" style={{ width: 400 }}/>
+          <Image src={require('./../../../assets/mockups/yalty.png')} className="mobileImage" style={{ width: 400 }} />
         </Col>
 
         <Col sm className="mt-5">
           <h2>Yalty Software User Management</h2>
           <h4>Full Stack Development with CI-CD</h4>
 
-          <p className="date py-2"><b className="mr-5">Date</b> April - May 2020</p>
+          <p className="date py-2">
+            <b className="mr-5">Date</b>
+            April - May 2020
+          </p>
           <div className="techstack d-flex py-2 mb-4">
             <p className="mr-5"><b>Tech Stack</b></p>
             <Image src={require('./../../../assets/icons/amazonaws.svg')} className="techstackimage" />
@@ -43,21 +46,6 @@ export default function Yalty() {
           </div>
         </Col>
       </Row>
-
-      {/* <Row className="mb-5 p-3">
-        <Col sm className="my-3">
-          <Image src={require('../../../assets/examples/studybreak/studybreak_1.png')} className="exampleImage" />
-        </Col>
-        <Col sm className="my-3">
-          <Image src={require('../../../assets/examples/studybreak/studybreak_2.png')} className="exampleImage" />
-        </Col>
-        <Col sm className="my-3">
-          <Image src={require('../../../assets/examples/studybreak/studybreak_3.png')} className="exampleImage" />
-        </Col>
-        <Col sm className="my-auto">
-          <Image src={require('../../../assets/examples/studybreak/studybreak_4.png')} className="exampleImage" />
-        </Col>
-      </Row> */}
     </Container>
   );
 }

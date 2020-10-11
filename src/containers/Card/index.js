@@ -13,7 +13,7 @@ export default function CardComponent({
       </Link>
       <Card.Body>
         <Card.Title><h4>{title}</h4></Card.Title>
-        <Card.Text>{description}</Card.Text>
+        <Card.Text style={{ textAlign: 'center' }}>{description}</Card.Text>
       </Card.Body>
     </Card>
   );

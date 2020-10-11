@@ -10,6 +10,8 @@ import Footer from './containers/Footer/index';
 import Portfolio from './containers/Portfolio/index';
 import Contact from './containers/Contact/index';
 
+import DisasterPets from './containers/Portfolio/DisasterPets';
+import MemoryGame from './containers/Portfolio/MemoryGame';
 import Mahjong from './containers/Portfolio/Mahjong';
 import Yalty from './containers/Portfolio/Yalty';
 import Bike2Go from './containers/Portfolio/Bike2Go';
@@ -79,6 +81,16 @@ export default function App() {
           path="/portfolio/mahjong"
           exact
           render={() => <Mahjong />}
+        />
+        <Route
+          path="/portfolio/memorygame"
+          exact
+          render={() => <MemoryGame />}
+        />
+        <Route
+          path="/portfolio/disasterpets"
+          exact
+          render={() => <DisasterPets />}
         />
       </Switch>
       <Footer />

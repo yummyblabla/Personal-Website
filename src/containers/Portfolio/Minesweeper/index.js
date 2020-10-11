@@ -26,7 +26,8 @@ export default function Minesweeper() {
           <h4>HTML5 Game</h4>
 
           <p className="date py-2">
-            <b className="mr-5">Date</b> December 2018
+            <b className="mr-5">Date</b>
+            December 2018
           </p>
           <div className="techstack d-flex py-2 mb-4">
             <p className="mr-5"><b>Tech Stack</b></p>
@@ -53,8 +54,12 @@ export default function Minesweeper() {
           </div>
 
           <div className="mb-5">
-            <p className="mb-0">Sound belongs to Mike Koenig on <a href="http://soundbible.com/">SoundBible</a></p>
-            <p className="mb-0">Art belongs to <a href="https://opengameart.org/users/eugeneloza">Eugene Loza</a> on <a href="https://www.deviantart.com/hopstarter">DevianArt</a></p>
+            <p className="mb-0">
+              Sound belongs to Mike Koenig on <a href="http://soundbible.com/">SoundBible</a>
+            </p>
+            <p className="mb-0">
+              Art belongs to <a href="https://opengameart.org/users/eugeneloza">Eugene Loza</a> on <a href="https://www.deviantart.com/hopstarter">DevianArt</a>
+            </p>
           </div>
         </Col>
       </Row>

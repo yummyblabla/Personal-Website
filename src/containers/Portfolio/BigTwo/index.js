@@ -25,7 +25,7 @@ export default function BigTwo() {
           <h2>Big Two</h2>
           <h4>HTML5 Game</h4>
 
-          <p className="date py-2"><b className="mr-5">Date</b> December 2019 - Present</p>
+          <p className="date py-2"><b className="mr-5">Date</b> December 2019 - January 2020</p>
           <div className="techstack d-flex py-2 mb-4">
             <p className="mr-5"><b>Tech Stack</b></p>
             <Image src={require('./../../../assets/icons/html5.svg')} className="techstackimage" />
@@ -40,17 +40,16 @@ export default function BigTwo() {
           <p className="mb-3">I used PixiJS for rendering the actual game and React for other UI elements, such as login and lobby. Socket.io was chosen to handle and simulate real-time gameplay as players could exchange information with the server and others more easily in a fast paced game. </p>
 
           <p className="mb-3">
-            You can try it out at&nbsp;
-            <a href="https://bigtwo.io">BigTwo.io</a>
+            BigTwo.io has been taken down due to server costs.
           </p>
-          {/* <div className="mb-5">
-            <a href="https://github.com/yummyblabla/BigTwo">
+          <div className="mb-5">
+            <a href="https://github.com/yummyblabla/BigTwoNext">
               <Button variant="outline-primary">
                 <FontAwesomeIcon icon={faGithub} className="mr-1" />
                 GitHub
               </Button>
             </a>
-          </div> */}
+          </div>
 
           <div className="mb-5">
             <p class="mb-0">
