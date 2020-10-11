@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1c86d19d460b31a40687a59cbe5bd091",
+    "revision": "004d9fec806fa644eb83435936ca0e28",
     "url": "/index.html"
   },
   {
-    "revision": "1f1835bdf3cf6d16ee64",
+    "revision": "5127ba87e1a0b278091c",
     "url": "/static/css/2.b0bb7f2c.chunk.css"
   },
   {
-    "revision": "9c085c4f8c5836c1b860",
+    "revision": "ccf5aaf72fd117f56c3c",
     "url": "/static/css/main.9da2ab50.chunk.css"
   },
   {
-    "revision": "1f1835bdf3cf6d16ee64",
-    "url": "/static/js/2.2e61d469.chunk.js"
+    "revision": "5127ba87e1a0b278091c",
+    "url": "/static/js/2.d1b00c59.chunk.js"
   },
   {
-    "revision": "9c085c4f8c5836c1b860",
-    "url": "/static/js/main.653c0480.chunk.js"
+    "revision": "ccf5aaf72fd117f56c3c",
+    "url": "/static/js/main.c9fc238d.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -80,6 +80,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/css-3.96c4e9a4.svg"
   },
   {
+    "revision": "6745b00645740d49f7ba063a87c0c895",
+    "url": "/static/media/disasterpets.6745b006.jpeg"
+  },
+  {
+    "revision": "c0aa72dbe625ef0296cb9d36c991def4",
+    "url": "/static/media/disasterpets.c0aa72db.jpeg"
+  },
+  {
     "revision": "f9dd3807d3b2a55aeb76f65289dced6d",
     "url": "/static/media/elasticsearch.f9dd3807.svg"
   },
@@ -94,6 +102,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d1c97c8773def44eec91488cf2193db0",
     "url": "/static/media/game.d1c97c87.jpeg"
+  },
+  {
+    "revision": "26b2e8550a2b4b04b07bb9d8fc6cdf74",
+    "url": "/static/media/gcp.26b2e855.svg"
   },
   {
     "revision": "0bb8c16611ff82a39086b78b0c7dfe7a",
@@ -124,6 +136,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/linkedin.619231ff.svg"
   },
   {
+    "revision": "10997fa9e2c4ceb79e4ab5a79a0bfd78",
+    "url": "/static/media/mahjong.10997fa9.jpeg"
+  },
+  {
     "revision": "3d4da900d4b96e412a6dfe7f6437e24d",
     "url": "/static/media/mahjong.3d4da900.png"
   },
@@ -138,6 +154,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f86c872cec0c8bce29a353bdf3cd928f",
     "url": "/static/media/mahjong_2.f86c872c.jpg"
+  },
+  {
+    "revision": "765d0e86da815e6b3fc73b5eb7ff3fc4",
+    "url": "/static/media/memorygame.765d0e86.jpeg"
+  },
+  {
+    "revision": "c01f44a7a29c6c2fe362fc8563e165c2",
+    "url": "/static/media/memorygame.c01f44a7.png"
   },
   {
     "revision": "65e2ddc28443e79755453eff3da0815a",
