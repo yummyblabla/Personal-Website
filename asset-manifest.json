@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.95efbb54.chunk.css",
-    "main.js": "/static/js/main.209d41dc.chunk.js",
-    "main.js.map": "/static/js/main.209d41dc.chunk.js.map",
+    "main.css": "/static/css/main.18b7aafb.chunk.css",
+    "main.js": "/static/js/main.88e635d8.chunk.js",
+    "main.js.map": "/static/js/main.88e635d8.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
     "static/css/2.429e79c4.chunk.css": "/static/css/2.429e79c4.chunk.css",
-    "static/js/2.575b7f47.chunk.js": "/static/js/2.575b7f47.chunk.js",
-    "static/js/2.575b7f47.chunk.js.map": "/static/js/2.575b7f47.chunk.js.map",
+    "static/js/2.ce15ca5b.chunk.js": "/static/js/2.ce15ca5b.chunk.js",
+    "static/js/2.ce15ca5b.chunk.js.map": "/static/js/2.ce15ca5b.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.27f17e8fa14d16a8e9684193289d63e5.js": "/precache-manifest.27f17e8fa14d16a8e9684193289d63e5.js",
+    "precache-manifest.6fa00bd5219ac10d485d21d01c53b44f.js": "/precache-manifest.6fa00bd5219ac10d485d21d01c53b44f.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.429e79c4.chunk.css.map": "/static/css/2.429e79c4.chunk.css.map",
-    "static/css/main.95efbb54.chunk.css.map": "/static/css/main.95efbb54.chunk.css.map",
+    "static/css/main.18b7aafb.chunk.css.map": "/static/css/main.18b7aafb.chunk.css.map",
     "static/media/accuracygame.png": "/static/media/accuracygame.8a21332e.png",
     "static/media/amazonaws.svg": "/static/media/amazonaws.259e1339.svg",
     "static/media/android.svg": "/static/media/android.14ed07e6.svg",
@@ -61,6 +61,7 @@
     "static/media/studybreak_3.png": "/static/media/studybreak_3.fa6416fc.png",
     "static/media/studybreak_4.png": "/static/media/studybreak_4.71e1bead.png",
     "static/media/terraform.svg": "/static/media/terraform.594e5be4.svg",
+    "static/media/App.css": "/static/media/unsplash.031d025e.jpg",
     "static/media/vue-dot-js.svg": "/static/media/vue-dot-js.69cedcf3.svg",
     "static/media/yalty.png": "/static/media/yalty.9f2a34b3.png"
   }
