@@ -4,7 +4,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: 'Oswald', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+    'Segoe UI Symbol', 'Noto Color Emoji';
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -23,165 +25,170 @@ h3 {
 }
 
 .primary {
-	color: #003366;
+  color: #102a4c;
 }
 
 .icons {
-	display: inline-block;
-	margin: 10px;
+  display: inline-block;
+  margin: 10px;
 }
 
 .icon {
-	width: 60px;
-	height: 60px;
-	margin: 5px;
+  width: 60px;
+  height: 60px;
+  margin: 5px;
 }
 
 .container {
-	background-color: #fff;
-	height: 100%;
-	width: 100%;
-	font-family: 'Saira Extra Condensed';
+  background-color: #fff;
+  height: 100%;
+  width: 100%;
+  font-family: 'Saira Extra Condensed';
 }
 
 .link {
-	color: rgba(255,255,255,.50);
-	display: block;
-	padding: 0.5rem 1rem;
-	padding-right: 0.5rem;
-	padding-left: 0.5rem;
-	text-decoration: none;
-	font-weight: 800;
-	letter-spacing: .05rem;
-	text-transform: uppercase;
-	font-family: "Muli";
-	font-size: 1rem;
+  color: #cfe9d8;
+  display: block;
+  padding: 0.5rem 1rem;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  text-decoration: none;
+  font-weight: 800;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+  font-family: 'Muli';
+  font-size: 1rem;
+	font-family: 'Lato';
 }
 
 .link:hover {
-	color: rgba(255,255,255,.70);
-	text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 
 .active {
-	color: #fff;
+  color: #fff;
 }
 
 .brand {
-	display: inline-block;
-	padding-top: 0.3125rem;
-	padding-bottom: 0.3125rem;
-	margin-right: 1rem;
-	font-size: 1.5rem;
-	line-height: inherit;
-	white-space: nowrap;
-	
-	font-weight: 800;
-	letter-spacing: .05rem;
-	text-transform: uppercase;
-	font-family: "Muli";
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.5rem;
+  line-height: inherit;
+  white-space: nowrap;
+
+  font-weight: 800;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+  font-family: 'Lato';
 }
 
-p, li, .text {
-	font-family: 'Muli';
-	font-size: 1rem;
-	font-weight: 400;
-	line-height: 1.5;
-	text-align: left;
-	margin-top: 0;
-	margin-bottom: 0;
+p,
+li,
+.text {
+  font-family: 'Lato';
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /* NavBar */
 .navbar {
-	background-color: #003366;
-	font-family: "Muli";
+  background-color: #003366;
+  font-family: 'Lato';
 }
 
 .brandText {
-	text-decoration: none;
-	color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
 
 .brandText:hover {
-	color: #fff;
-	text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
-
 
 /* Home */
 .intro {
-	background-color: #F8F8F8;
-	width: 100%;
-	height: calc(100vh - 62px);
+  background-color: #f8f8f8;
+  width: 100%;
+  height: calc(100vh - 62px);
 }
 
 .introTitle {
-	padding-top: 30vh;
-	padding-left: 10vw;
-	padding-right: 30px;
+  padding-top: 30vh;
+  padding-left: 10vw;
+  padding-right: 30px;
 }
 
 .item {
-	background-color: #F8F8F8;
-	margin: 10px;
+  background-color: #f8f8f8;
+  margin: 10px;
 }
 
 .subheading {
-	text-transform: uppercase;
-  	font-weight: 500;
-  	font-size: 1.25rem;
-	color: #868e96;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.25rem;
+  color: #868e96;
 }
 
 .profilePic {
-	width: 15rem;
-	height: 15rem;
+  width: 15rem;
+  height: 15rem;
 }
 
 /* Links */
 .links {
-	position: fixed;
-	right: 0;
-	top: 50%;
-	margin-right: 10px;
-	transform: translateY(-50%);
-	z-index: 1;
+  position: fixed;
+  right: 0;
+  top: 50%;
+  margin-right: 10px;
+  transform: translateY(-50%);
+  z-index: 1;
 }
 
 .linkIcon {
-	width: 30px;
-	height: 30px;
-	margin-top: 10px;
-	margin-bottom: 10px;
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
-
-
 
 /* Footer */
 .footerSection {
-	background-color: #323232;
-	color: #fff;
-	width: 100%;
-	height: 100%;
+  background-color: #102a4c;
+  color: #fff;
+  width: 100%;
+  height: 100%;
 }
 
 .footerLink {
-	color: gray;
+  color: #cfe9d8;
+}
+
+.footerLink:hover {
+  color: #fff;
+  text-decoration: none;
 }
 
 .footer-menu {
-	display: flex;
+  display: flex;
 }
 
 .footerIcons {
-	background-color: gray;
+  background-color: gray;
 }
 
 .footerIcon {
-	width: 30px;
-	height: 30px;
-	margin: 20px;
+  width: 30px;
+  height: 30px;
+  margin: 20px;
 }
 
 @media screen and (max-width: 768px) {
@@ -204,54 +211,57 @@ p, li, .text {
 
 /* Card */
 .card {
-	max-width: 300px;
-	box-shadow: 3px 3px 5px #ccc;
+  max-width: 300px;
+  box-shadow: 3px 3px 5px #ccc;
 }
-
 
 /* Portfolio Page */
 .date {
-	border-bottom: 1px dotted #ccc;
+  border-bottom: 1px dotted #ccc;
 }
 
 .techstack {
-	border-bottom: 1px dotted #ccc;
+  border-bottom: 1px dotted #ccc;
 }
 
 .techstackimage {
-	width: 50px;
-	height: 50px;
+  width: 50px;
+  height: 50px;
 }
 
 .githubButton {
-	width: 20px;
-	height: 20px;
+  width: 20px;
+  height: 20px;
 }
 
 .mockupImage {
-	width: 100%;
+  width: 100%;
 }
 
 .mobileImage {
-	width: 50%;
-	padding: auto;
+  width: 50%;
+  padding: auto;
 }
 
 .exampleImage {
-	width: 100%;
+  width: 100%;
 }
 
 .fixFooter {
-	min-height: calc(100vh - 76px - 162px);
+  min-height: calc(100vh - 76px - 162px);
 }
 
 /* Contact */
 .formCSS {
-	font-family: 'Muli';
-	font-size: 1rem;
-	font-weight: 400;
-	line-height: 1.5;
-	text-align: left;
-	margin-top: 0;
-	margin-bottom: 0;
+  font-family: 'Muli';
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
 }
+
+/* .navbar-toggler-icon {
+  background-image: linear-gradient(to bottom,#2c4053 0,#2c4053 100%) !important;
+} */

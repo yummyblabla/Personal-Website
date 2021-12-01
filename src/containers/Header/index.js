@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 
 export default function Header() {
   return (
-    <Navbar className="navbar" expand="md">
+    <Navbar className="navbar" expand="md" variant="dark">
       <Navbar.Brand bsPrefix="brand">
         <Link to="/" className="brandText">
           Derrick Lee

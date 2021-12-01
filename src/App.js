@@ -20,38 +20,17 @@ import StudyBreak from './containers/Portfolio/StudyBreak';
 import Minesweeper from './containers/Portfolio/Minesweeper';
 import AccuracyGame from './containers/Portfolio/AccuracyGame';
 
-
 export default function App() {
   return (
     <BrowserRouter basename="/">
       <Header />
       <Links />
       <Switch>
-        <Route
-          path="/"
-          exact
-          render={() => <Home />}
-        />
-        <Route
-          path="/portfolio"
-          exact
-          render={() => <Portfolio />}
-        />
-        <Route
-          path="/contact"
-          exact
-          render={() => <Contact />}
-        />
-        <Route
-          path="/portfolio/bike2go"
-          exact
-          render={() => <Bike2Go />}
-        />
-        <Route
-          path="/portfolio/bigtwo"
-          exact
-          render={() => <BigTwo />}
-        />
+        <Route path="/" exact render={() => <Home />} />
+        <Route path="/portfolio" exact render={() => <Portfolio />} />
+        <Route path="/contact" exact render={() => <Contact />} />
+        <Route path="/portfolio/bike2go" exact render={() => <Bike2Go />} />
+        <Route path="/portfolio/bigtwo" exact render={() => <BigTwo />} />
         <Route
           path="/portfolio/studybreak"
           exact
@@ -67,21 +46,9 @@ export default function App() {
           exact
           render={() => <AccuracyGame />}
         />
-        <Route
-          path="/portfolio/bike2go"
-          exact
-          render={() => <Bike2Go />}
-        />
-        <Route
-          path="/portfolio/yalty"
-          exact
-          render={() => <Yalty />}
-        />
-        <Route
-          path="/portfolio/mahjong"
-          exact
-          render={() => <Mahjong />}
-        />
+        <Route path="/portfolio/bike2go" exact render={() => <Bike2Go />} />
+        <Route path="/portfolio/yalty" exact render={() => <Yalty />} />
+        <Route path="/portfolio/mahjong" exact render={() => <Mahjong />} />
         <Route
           path="/portfolio/memorygame"
           exact
