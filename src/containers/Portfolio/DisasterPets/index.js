@@ -15,7 +15,7 @@ export default function Yalty() {
     <Container className="fixFooter">
       <Row>
         <Col sm className="mt-5 p-4 text-center">
-          <Image src={require('./../../../assets/mockups/disasterpets.jpeg')} className="mobileImage" style={{ width: 400 }} />
+          <Image src={require('../../../assets/mockups/disasterpets.jpeg')} className="mobileImage" style={{ width: 400 }} />
         </Col>
 
         <Col sm className="mt-5">
@@ -28,9 +28,9 @@ export default function Yalty() {
           </p>
           <div className="techstack d-flex py-2 mb-4">
             <p className="mr-5"><b>Tech Stack</b></p>
-            <Image src={require('./../../../assets/icons/firebase.svg')} className="techstackimage" />
-            <Image src={require('./../../../assets/icons/react.svg')} className="techstackimage" />
-            <Image src={require('./../../../assets/icons/gcp.svg')} className="techstackimage" />
+            <Image src={require('../../../assets/icons/firebase.svg')} className="techstackimage" />
+            <Image src={require('../../../assets/icons/react.svg')} className="techstackimage" />
+            <Image src={require('../../../assets/icons/gcp.svg')} className="techstackimage" />
           </div>
 
           <p className="mb-3">
@@ -47,7 +47,7 @@ export default function Yalty() {
           </p>
           <div className="mb-3">
             <a href="https://disasterpets.net">
-              <Button variant="outline-primary">
+              <Button variant="outline-primary" className="newButton">
                 Main Website
               </Button>
             </a>

@@ -8,7 +8,7 @@ h6 {
     'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
     'Segoe UI Symbol', 'Noto Color Emoji';
   font-weight: 700;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 h1 {
@@ -56,9 +56,8 @@ h3 {
   font-weight: 800;
   letter-spacing: 0.05rem;
   text-transform: uppercase;
-  font-family: 'Muli';
   font-size: 1rem;
-	font-family: 'Lato';
+  font-family: 'Lato';
 }
 
 .link:hover {
@@ -81,8 +80,7 @@ h3 {
 
   font-weight: 800;
   letter-spacing: 0.05rem;
-  text-transform: uppercase;
-  font-family: 'Lato';
+  font-family: 'Oswald';
 }
 
 p,
@@ -99,7 +97,7 @@ li,
 
 /* NavBar */
 .navbar {
-  background-color: #003366;
+  background-color: #102a4c;
   font-family: 'Lato';
 }
 
@@ -114,10 +112,130 @@ li,
 }
 
 /* Home */
-.intro {
-  background-color: #f8f8f8;
-  width: 100%;
-  height: calc(100vh - 62px);
+
+@media (min-width: 1200px) {
+  .intro {
+    background: url('./assets/intro.jpeg');
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: repeat-x;
+    background-position: 30%;
+    width: 100%;
+    height: calc(100vh - 62px);
+    max-height: calc(100vh - 62px);
+    animation: animatedBackgroundDesktop 7s linear;
+    -moz-animation: animatedBackgroundDesktop 7s linear;
+    -webkit-animation: animatedBackgroundDesktop 7s linear;
+    -ms-animation: animatedBackgroundDesktop 7s linear;
+    -o-animation: animatedBackgroundDesktop 7s linear;
+  }
+}
+
+@media (max-width: 1199px) {
+  .intro {
+    background: url('./assets/intro.jpeg');
+    background-position: 30%;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: calc(100vh - 62px);
+    animation: animatedBackground 7s linear;
+    -moz-animation: animatedBackground 7s linear;
+    -webkit-animation: animatedBackground 7s linear;
+    -ms-animation: animatedBackground 7s linear;
+    -o-animation: animatedBackground 7s linear;
+  }
+  .introTitle {
+    padding-left: 5vw !important;
+  }
+}
+
+@keyframes animatedBackgroundDesktop {
+  0% {
+    background-position: 6cm;
+  }
+  100% {
+    background-position: 0cm;
+  }
+}
+@-moz-keyframes animatedBackgroundDesktop {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 30%;
+  }
+}
+@-webkit-keyframes animatedBackgroundDesktop {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 30%;
+  }
+}
+@-ms-keyframes animatedBackgroundDesktop {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 30%;
+  }
+}
+@-o-keyframes animatedBackgroundDesktop {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 30%;
+  }
+}
+
+@keyframes animatedBackground {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 30%;
+  }
+}
+@-moz-keyframes animatedBackground {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 30%;
+  }
+}
+@-webkit-keyframes animatedBackground {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 30%;
+  }
+}
+@-ms-keyframes animatedBackground {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 30%;
+  }
+}
+@-o-keyframes animatedBackground {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 30%;
+  }
 }
 
 .introTitle {
@@ -158,6 +276,8 @@ li,
   height: 30px;
   margin-top: 10px;
   margin-bottom: 10px;
+  color: #102a4c;
+  position: relative;
 }
 
 /* Footer */
@@ -170,6 +290,7 @@ li,
 
 .footerLink {
   color: #cfe9d8;
+  font-family: 'Lato';
 }
 
 .footerLink:hover {
@@ -182,13 +303,16 @@ li,
 }
 
 .footerIcons {
-  background-color: gray;
+  padding: 20px;
+  background-color: #cfe9d8;
 }
 
 .footerIcon {
   width: 30px;
   height: 30px;
   margin: 20px;
+  color: #102a4c;
+  position: relative;
 }
 
 @media screen and (max-width: 768px) {
@@ -247,6 +371,35 @@ li,
   width: 100%;
 }
 
+.preImage {
+  position: relative;
+}
+
+.preImage::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom right, #e2e6a6, #e069e8);
+  opacity: 0.65;
+}
+
+.preImage:hover > .cardImage {
+  filter: grayscale(0);
+}
+
+.preImage:hover::after {
+  opacity: 1;
+  background-image: none;
+}
+
+.cardImage {
+  filter: grayscale(1);
+}
+
+
 .fixFooter {
   min-height: calc(100vh - 76px - 162px);
 }
@@ -262,6 +415,70 @@ li,
   margin-bottom: 0;
 }
 
-/* .navbar-toggler-icon {
-  background-image: linear-gradient(to bottom,#2c4053 0,#2c4053 100%) !important;
-} */
+.btn-primary {
+  background-color: #102a4c;
+  border-color: #102a4c;
+}
+
+.btn-outline-primary {
+  border-color: #102a4c;
+  color: #102a4c;
+}
+
+.btn-outline-primary:hover {
+  border-color: #102a4c;
+  background-color: #102a4c;
+}
+
+.color-white {
+  color: #fff;
+}
+
+.introButton {
+  background-color: #cfe9d8;
+  border-color: #cfe9d8;
+  color: #102a4c;
+  font-family: 'Lato';
+}
+
+.introButton:hover {
+  background-color: #102a4c;
+  color: #cfe9d8;
+  border-color: #102a4c;
+}
+
+.introOutlineButton {
+  color: #cfe9d8;
+  border-color: #cfe9d8;
+}
+
+.introOutlineButton:hover {
+  background-color: #cfe9d8;
+  border-color: #cfe9d8;
+  color: #102a4c;
+}
+
+.newButton {
+  background-color: #102a4c;
+  border-color: #102a4c;
+  color: #cfe9d8;
+  font-family: 'Lato';
+}
+
+.newButton:hover {
+  background-color: #cfe9d8;
+  border-color: #cfe9d8;
+  color: #102a4c;
+}
+
+.colorPrimary {
+  color: #102a4c;
+}
+
+.colorSecondary {
+  color: #cfe9d8;
+}
+
+.textUnderline {
+  text-decoration: underline;
+}

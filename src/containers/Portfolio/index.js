@@ -13,6 +13,36 @@ export default function Portfolio() {
   return (
     <>
       <Container className="mb-5 text-center fixFooter">
+        <h2 className="mb-5 mt-5 text-center">BCIT Industry Sponsored Student Projects</h2>
+        <Row>
+          <Card
+            title="Disaster Pets Rework"
+            imageName="disasterpets.jpeg"
+            to="./portfolio/disasterpets"
+            description="React + Firebase + Google Cloud Platform"
+          />
+          <Card
+            title="Yalty Software User Management"
+            imageName="yalty1.jpg"
+            to="./portfolio/yalty"
+            description="AWS Serverless + React + CICD"
+          />
+        </Row>
+        <h2 className="mb-5 mt-5 text-center">Hackathons</h2>
+        <Row>
+          <Card
+            title="Bike2Go"
+            imageName="bike2go.jpg"
+            to="./portfolio/bike2go"
+            description="React + NextJS"
+          />
+          <Card
+            title="Study Break"
+            imageName="studybreak.jpeg"
+            to="./portfolio/studybreak"
+            description="Android Studio + Java"
+          />
+        </Row>
         <h2 className="mb-5 mt-5 text-center">Personal Projects / Games</h2>
         <Row>
           <Card
@@ -44,36 +74,6 @@ export default function Portfolio() {
             imageName="game.jpeg"
             to="./portfolio/accuracygame"
             description="HTML5 Canvas + JavaScript"
-          />
-        </Row>
-        <h2 className="mb-5 mt-5 text-center">BCIT Industry Sponsored Student Projects</h2>
-        <Row>
-          <Card
-            title="Disaster Pets Rework"
-            imageName="disasterpets.jpeg"
-            to="./portfolio/disasterpets"
-            description="React + Firebase + Google Cloud Platform"
-          />
-          <Card
-            title="Yalty Software User Management"
-            imageName="yalty.png"
-            to="./portfolio/yalty"
-            description="AWS Serverless + React + CICD"
-          />
-        </Row>
-        <h2 className="mb-5 mt-5 text-center">Hackathons</h2>
-        <Row>
-          <Card
-            title="Bike2Go"
-            imageName="bike2go.jpg"
-            to="./portfolio/bike2go"
-            description="React + NextJS"
-          />
-          <Card
-            title="Study Break"
-            imageName="studybreak.jpeg"
-            to="./portfolio/studybreak"
-            description="Android Studio + Java"
           />
         </Row>
       </Container>

@@ -8,6 +8,7 @@ import Image from 'react-bootstrap/Image';
 
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { Link } from 'react-router-dom';
+import Typist from 'react-typist';
 import Card from '../Card';
 
 const RESUME_LINK = 'https://drive.google.com/file/d/1L8jK1CvtobmPnExuhCWHfQBI5gdDvUel/view?usp=sharing';
@@ -22,17 +23,38 @@ export default function Home() {
       <section id="intro">
         <div className="intro mb-3">
           <div className="introTitle">
-            <h2>Derrick Lee</h2>
-            <h4>Developer in Vancouver, B.C.</h4>
-            <div className="mt-3">
-              <Link to="/portfolio">
-                <Button variant="primary" className="mr-2">
+            <h2 className="color-white">
+              <Typist>
+                <Typist.Delay ms={1500} />
+                Derrick Lee
+              </Typist>
+            </h2>
+            <h4 className="color-white">
+              <Typist>
+                <Typist.Delay ms={3500} />
+                Full Stack Developer
+              </Typist>
+            </h4>
+            <h5 className="color-white">
+              <Typist>
+                <Typist.Delay ms={5500} />
+                Based in Vancity🍁
+              </Typist>
+            </h5>
+            <div className="mt-5">
+              <AnchorLink href="#portfolio">
+                <Button variant="primary" className="mr-2 introButton">
                   See Portfolio
                 </Button>
-              </Link>
+              </AnchorLink>
 
               <AnchorLink href="#about">
-                <Button variant="outline-primary">About Me</Button>
+                <Button
+                  variant="outline-primary"
+                  className="introOutlineButton"
+                >
+                  About Me
+                </Button>
               </AnchorLink>
             </div>
           </div>
@@ -48,28 +70,37 @@ export default function Home() {
                 <Row>
                   <Col md={8} className="order-2 order-sm-12">
                     <p>
-                      I am a full stack developer who has high ambition to learn
-                      new things and to constantly improve myself. I specialize
-                      in back-end development with experience with development
-                      in front-end as well using React. With various experiences
-                      under my belt, I can adapt to any working environment as
-                      ease.
+                      Nice to meet you, I am Derrick 🙋‍♂️. I am a Full Stack Developer with 2+ years
+                      of working experience, specializing in backend infrastructure. Having
+                      first hand experience in designing, developing, and implementing solutions
+                      for various applications, led me to become a holistic systems thinker.
+                      <br />
+                      <br />
+                      Using a wide range of technologies and programming languages like Node.js,
+                      Python, as well as, AWS motivates me to learn new things and
+                      constantly improve myself.
+                      <br />
+                      <br />
+                      Having graduated from BCIT Computer Systems Technology, and UBC Bachelor
+                      of Science, grew my passion in software development. I strive to
+                      innovate on solutions that simplifies everyday human problems.
+                      <br />
+                      <br />
+                      I have a certification in
+                      {' '}
+                      <a href="https://www.credly.com/badges/21208b92-4684-4281-a750-fce3246edcea" className="colorPrimary textUnderline">AWS Solutions Architect Associate</a>
+                      , and am currently a candidate for AWS Architecture Professional; to be completed by March of 2022.
                     </p>
                     <br />
-                    <p>
-                      I also have a certification in AWS Solutions Architect
-                      Associate that was completed in July 2020.
-                    </p>
-
-                    <p className="mt-4">
-                      <a href={RESUME_LINK}>
+                    <a href={RESUME_LINK}>
+                      <Button variant="primary" className="mt-4 newButton">
                         Download Resume
-                      </a>
-                    </p>
+                      </Button>
+                    </a>
                   </Col>
                   <Col md={4} className="order-1 order-sm-1 text-center">
                     <Image
-                      src={require('../../assets/profile.jpeg')}
+                      src={require('../../assets/newprofile.jpg')}
                       className="profilePic mb-3"
                       roundedCircle
                     />
@@ -86,8 +117,9 @@ export default function Home() {
                 <div className="text-center mb-3">
                   <Image
                     src={require('../../assets/icons/html5.svg')}
-                    className="icon"
+                    className="icon iconOverlay"
                   />
+
                   <Image
                     src={require('../../assets/icons/css-3.svg')}
                     className="icon"
@@ -160,44 +192,38 @@ export default function Home() {
             </Col>
           </Row>
 
-          <div className="mb-5 item pt-3 pl-4">
-            <h3 className="mt-3 mb-3">Portfolio</h3>
+          <div className="mb-5 item pt-3">
+            <section id="portfolio">
+              <h3 className="mt-3 mb-3 pl-4">Portfolio</h3>
 
-            <div>
-              <Row>
-                <Col>
+              <div>
+                <Row className="d-flex flex-row pl-3 pr-3">
                   <Card
-                    title="Memory Game"
-                    imageName="memorygame.jpeg"
-                    to="./portfolio/memorygame"
-                    description="HTML5 Canvas + JavaScript + Nodejs + SQL"
+                    title="Yalty Software User Management"
+                    imageName="yalty1.jpg"
+                    to="./portfolio/yalty"
+                    description="AWS Serverless + React + CICD"
                   />
-                </Col>
-                <Col>
                   <Card
-                    title="Multiplayer Mahjong"
-                    imageName="mahjong.jpeg"
-                    to="./portfolio/mahjong"
-                    description="AWS Serverless + React TypeScript + WebSocket + PixiJS"
+                    title="Bike2Go"
+                    imageName="bike2go.jpg"
+                    to="./portfolio/bike2go"
+                    description="React + NextJS"
                   />
-                </Col>
-                <Col>
                   <Card
-                    title="Big Two"
-                    imageName="bigtwo.jpeg"
-                    to="./portfolio/bigtwo"
-                    description="React + NextJS + Socket.io + PixiJS"
+                    title="Disaster Pets Rework"
+                    imageName="disasterpets.jpeg"
+                    to="./portfolio/disasterpets"
+                    description="React + Firebase + Google Cloud Platform"
                   />
-                </Col>
-              </Row>
-              <div className="pb-3">
+                </Row>
                 <Link to="./portfolio">
-                  <p>See more...</p>
+                  <Button variant="primary" className="mb-3 newButton ml-4">
+                    See more...
+                  </Button>
                 </Link>
               </div>
-
-            </div>
-
+            </section>
           </div>
           {/* <Row className="mb-4">
             <Col sm className="item">

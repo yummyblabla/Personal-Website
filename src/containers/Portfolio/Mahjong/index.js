@@ -18,18 +18,22 @@ export default function Mahjong() {
     <Container className="fixFooter">
       <Row>
         <Col sm className="mt-5 p-4 text-center">
-          <Image src={require('./../../../assets/mockups/mahjong.png')} className="mobileImage" style={{ width: 500 }}/>
+          <Image src={require('../../../assets/mockups/mahjong.png')} className="mobileImage" style={{ width: 500 }} />
         </Col>
 
         <Col sm className="mt-5">
           <h2>Multiplayer Mahjong</h2>
           <h4>Serverless HTML5 Game</h4>
 
-          <p className="date py-2"><b className="mr-5">Date</b> July - August 2020</p>
+          <p className="date py-2">
+            <b className="mr-5">Date</b>
+            {' '}
+            July - August 2020
+          </p>
           <div className="techstack d-flex py-2 mb-4">
             <p className="mr-5"><b>Tech Stack</b></p>
-            <Image src={require('./../../../assets/icons/amazonaws.svg')} className="techstackimage" />
-            <Image src={require('./../../../assets/icons/react.svg')} className="techstackimage" />
+            <Image src={require('../../../assets/icons/amazonaws.svg')} className="techstackimage" />
+            <Image src={require('../../../assets/icons/react.svg')} className="techstackimage" />
           </div>
 
           <p className="mb-3">During the summer break before our last term at BCIT, my classmates and I wanted to create a multiplayer game to add to our portfolio. We created Mahjong using the knowledge and skills we have accumulated over the past year in our co-ops and projects.</p>
@@ -38,10 +42,10 @@ export default function Mahjong() {
 
           <div className="mb-2">
             <a href="https://gamblingkings-website.firebaseapp.com">
-              <Button variant="primary" className="mr-2">Try Mahjong!</Button>
+              <Button variant="primary" className="mr-2 newButton">Try Mahjong!</Button>
             </a>
             <a href="https://github.com/GamblingKings">
-              <Button variant="outline-primary">
+              <Button variant="outline-primary" className="newButton">
                 <FontAwesomeIcon icon={faGithub} className="mr-1" />
                 GitHub
               </Button>

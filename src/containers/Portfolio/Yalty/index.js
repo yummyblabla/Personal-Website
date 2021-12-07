@@ -15,7 +15,7 @@ export default function Yalty() {
     <Container className="fixFooter">
       <Row>
         <Col sm className="mt-5 p-4 text-center">
-          <Image src={require('./../../../assets/mockups/yalty.png')} className="mobileImage" style={{ width: 400 }} />
+          <Image src={require('../../../assets/mockups/yalty1.jpg')} className="mobileImage" style={{ width: 400 }} />
         </Col>
 
         <Col sm className="mt-5">
@@ -28,9 +28,9 @@ export default function Yalty() {
           </p>
           <div className="techstack d-flex py-2 mb-4">
             <p className="mr-5"><b>Tech Stack</b></p>
-            <Image src={require('./../../../assets/icons/amazonaws.svg')} className="techstackimage" />
-            <Image src={require('./../../../assets/icons/react.svg')} className="techstackimage" />
-            <Image src={require('./../../../assets/icons/terraform.svg')} className="techstackimage" />
+            <Image src={require('../../../assets/icons/amazonaws.svg')} className="techstackimage" />
+            <Image src={require('../../../assets/icons/react.svg')} className="techstackimage" />
+            <Image src={require('../../../assets/icons/terraform.svg')} className="techstackimage" />
           </div>
 
           <p className="mb-3">For my projects practicum course (COMP 3800) at BCIT, my team of five and I were tasked to create a user management system in 5 weeks using agile methodologies. Some hard requirements were AWS, serverless and Terraform, and it also needs a user interface to perform CRUD operations on users.</p>
@@ -39,7 +39,7 @@ export default function Yalty() {
           <p className="mb-3">Overall, everybody on the team learned a lot about AWS, and this prompted the whole team to complete the certification for AWS Solutions Architect Associate, which we all passed.</p>
           <div className="mb-3">
             <a href="https://user.yalty.mobi/">
-              <Button variant="outline-primary">
+              <Button variant="outline-primary" className="newButton">
                 Link
               </Button>
             </a>

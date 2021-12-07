@@ -18,7 +18,7 @@ export default function Minesweeper() {
     <Container className="fixFooter">
       <Row>
         <Col sm className="mt-5">
-          <Image src={require('./../../../assets/mockups/minesweeper.png')} className="mockupImage" />
+          <Image src={require('../../../assets/mockups/minesweeper.png')} className="mockupImage" />
         </Col>
 
         <Col sm className="mt-5">
@@ -31,10 +31,10 @@ export default function Minesweeper() {
           </p>
           <div className="techstack d-flex py-2 mb-4">
             <p className="mr-5"><b>Tech Stack</b></p>
-            <Image src={require('./../../../assets/icons/html5.svg')} className="techstackimage" />
-            <Image src={require('./../../../assets/icons/css-3.svg')} className="techstackimage" />
-            <Image src={require('./../../../assets/icons/javascript.svg')} className="techstackimage" />
-            <Image src={require('./../../../assets/icons/firebase.svg')} className="techstackimage" />
+            <Image src={require('../../../assets/icons/html5.svg')} className="techstackimage" />
+            <Image src={require('../../../assets/icons/css-3.svg')} className="techstackimage" />
+            <Image src={require('../../../assets/icons/javascript.svg')} className="techstackimage" />
+            <Image src={require('../../../assets/icons/firebase.svg')} className="techstackimage" />
           </div>
 
           <p className="mb-3">This game was created for my Web Development course at BCIT. The class was given a task of recreating the classic game of Minesweeper with the limitations of using only JavaScript, HTML, and CSS. No libraries such as jQuery were allowed.</p>
@@ -43,10 +43,10 @@ export default function Minesweeper() {
 
           <div className="mb-5">
             <a href="https://minesweeper-50f64.firebaseapp.com/">
-              <Button variant="primary" className="mr-2">Play Minesweeper!</Button>
+              <Button variant="primary" className="mr-2 newButton">Play Minesweeper!</Button>
             </a>
             <a href="https://github.com/yummyblabla/MinesweeperGame">
-              <Button variant="outline-primary">
+              <Button variant="outline-primary" className="newButton">
                 <FontAwesomeIcon icon={faGithub} className="mr-1" />
                 GitHub
               </Button>
@@ -55,10 +55,18 @@ export default function Minesweeper() {
 
           <div className="mb-5">
             <p className="mb-0">
-              Sound belongs to Mike Koenig on <a href="http://soundbible.com/">SoundBible</a>
+              Sound belongs to Mike Koenig on
+              {' '}
+              <a href="http://soundbible.com/">SoundBible</a>
             </p>
             <p className="mb-0">
-              Art belongs to <a href="https://opengameart.org/users/eugeneloza">Eugene Loza</a> on <a href="https://www.deviantart.com/hopstarter">DevianArt</a>
+              Art belongs to
+              {' '}
+              <a href="https://opengameart.org/users/eugeneloza">Eugene Loza</a>
+              {' '}
+              on
+              {' '}
+              <a href="https://www.deviantart.com/hopstarter">DevianArt</a>
             </p>
           </div>
         </Col>

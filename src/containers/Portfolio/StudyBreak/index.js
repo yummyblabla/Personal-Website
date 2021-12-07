@@ -18,7 +18,7 @@ export default function StudyBreak() {
     <Container className="fixFooter">
       <Row>
         <Col sm className="mt-5 p-4 text-center">
-          <Image src={require('./../../../assets/mockups/studybreak.png')} className="mobileImage" />
+          <Image src={require('../../../assets/mockups/studybreak.png')} className="mobileImage" />
         </Col>
 
         <Col sm className="mt-5">
@@ -31,8 +31,8 @@ export default function StudyBreak() {
           </p>
           <div className="techstack d-flex py-2 mb-4">
             <p className="mr-5"><b>Tech Stack</b></p>
-            <Image src={require('./../../../assets/icons/android.svg')} className="techstackimage" />
-            <Image src={require('./../../../assets/icons/java.svg')} className="techstackimage" />
+            <Image src={require('../../../assets/icons/android.svg')} className="techstackimage" />
+            <Image src={require('../../../assets/icons/java.svg')} className="techstackimage" />
           </div>
 
           <p className="mb-3">This Android app was created during the 27-hour BCIT Co-op Hackathon. My team and I were able to utilize a new technology to provide a working solution to a common problem. We aimed to provide a resource for students to improve their mental and physical health during their study sessions.</p>
@@ -41,7 +41,7 @@ export default function StudyBreak() {
 
           <div className="mb-2">
             <a href="https://github.com/yummyblabla/StudyBreak">
-              <Button variant="outline-primary">
+              <Button variant="outline-primary" className="newButton">
                 <FontAwesomeIcon icon={faGithub} className="mr-1" />
                 GitHub
               </Button>

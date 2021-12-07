@@ -14,7 +14,7 @@ export default function Contact() {
   const [message, setMessage] = useState('');
 
   const sendMessage = () => {
-    const GOOGLE_FORM_ACTION_URL = 'https://docs.google.com/forms/d/e/1FAIpQLScq1UiYBxVEm25pVitMor2q2rW3BedcPY4je-VE-BrRiZjicQ/formResponse'
+    const GOOGLE_FORM_ACTION_URL = 'https://docs.google.com/forms/d/e/1FAIpQLScq1UiYBxVEm25pVitMor2q2rW3BedcPY4je-VE-BrRiZjicQ/formResponse';
     const GOOGLE_NAME_ID = 'entry.328270509';
     const GOOGLE_NUMBER_ID = 'entry.1030277489';
     const GOOGLE_EMAIL_ID = 'entry.900125730';
@@ -31,25 +31,34 @@ export default function Contact() {
       method: 'POST',
       body: formData,
     })
-      .then(response => console.log(response))
-      .catch(error => console.log('Error: ' + error));
-  }
+      .then((response) => console.log(response))
+      .catch((error) => console.log(`Error: ${error}`));
+  };
   return (
     <section id="contact">
       <Container className="fixFooter">
         <Row>
           <Col sm className="m-3">
             <h3 className="my-3">Links</h3>
-            <p className="mb-3">You can contact me on whichever platform you find convenient below.</p>
+            <p className="mb-3">
+              You can contact me on whichever platform you find convenient
+              below.
+            </p>
             <a href="https://www.linkedin.com/in/derricklee91">
-              <Image src={require('./../../assets/icons/linkedin.svg')} className="linkIcon mr-3" />
-              <span className="text">Linkedin</span>
+              <Image
+                src={require('../../assets/icons/linkedin.svg')}
+                className="linkIcon mr-3"
+              />
+              <span className="text colorPrimary">Linkedin</span>
             </a>
             <div>
-              <Image src={require('./../../assets/icons/gmail.svg')} className="linkIcon mr-3" />
+              <Image
+                src={require('../../assets/icons/gmail.svg')}
+                className="linkIcon mr-3"
+              />
               <span className="text">E-mail: </span>
               <a href="mailto:derricklee91@gmail.com">
-                <span className="text">derricklee91@gmail.com</span>
+                <span className="text colorPrimary">derricklee91@gmail.com</span>
               </a>
             </div>
           </Col>

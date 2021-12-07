@@ -18,7 +18,7 @@ export default function Mahjong() {
     <Container className="fixFooter">
       <Row>
         <Col sm className="mt-5 p-4 text-center">
-          <Image src={require('./../../../assets/portfolio/memorygame.png')} className="mobileImage" style={{ width: 500 }} />
+          <Image src={require('../../../assets/portfolio/memorygame.png')} className="mobileImage" style={{ width: 500 }} />
         </Col>
 
         <Col sm className="mt-5">
@@ -31,9 +31,9 @@ export default function Mahjong() {
           </p>
           <div className="techstack d-flex py-2 mb-4">
             <p className="mr-5"><b>Tech Stack</b></p>
-            <Image src={require('./../../../assets/icons/html5.svg')} className="techstackimage" />
-            <Image src={require('./../../../assets/icons/javascript.svg')} className="techstackimage" />
-            <Image src={require('./../../../assets/icons/node-dot-js.svg')} className="techstackimage" />
+            <Image src={require('../../../assets/icons/html5.svg')} className="techstackimage" />
+            <Image src={require('../../../assets/icons/javascript.svg')} className="techstackimage" />
+            <Image src={require('../../../assets/icons/node-dot-js.svg')} className="techstackimage" />
           </div>
 
           <p className="mb-3">
@@ -55,10 +55,10 @@ export default function Mahjong() {
 
           <div className="mb-2">
             <a href="https://comp4537.derricklee.dev/comp4537/MemoryGame/index.html">
-              <Button variant="primary" className="mr-2">Play now!</Button>
+              <Button variant="primary" className="mr-2 newButton">Play now!</Button>
             </a>
             <a href="https://github.com/yummyblabla/yummyblabla.github.io/tree/master/comp4537/MemoryGame">
-              <Button variant="outline-primary">
+              <Button variant="outline-primary" className="newButton">
                 <FontAwesomeIcon icon={faGithub} className="mr-1" />
                 GitHub
               </Button>
