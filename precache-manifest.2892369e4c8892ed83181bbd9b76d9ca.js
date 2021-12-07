@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "36935ac3099bacdb896ae11b3d94d9db",
+    "revision": "84c75f2defb091fe4ca0fac8b12c90ac",
     "url": "/index.html"
   },
   {
-    "revision": "c411965447dbc4098551",
+    "revision": "ac9bd20a844e60050bb8",
     "url": "/static/css/2.429e79c4.chunk.css"
   },
   {
-    "revision": "c522645fb1f6847e0f59",
-    "url": "/static/css/main.f504c10a.chunk.css"
+    "revision": "3688bf00c58cdce6c2cf",
+    "url": "/static/css/main.d8913f18.chunk.css"
   },
   {
-    "revision": "c411965447dbc4098551",
-    "url": "/static/js/2.5a21a9e4.chunk.js"
+    "revision": "ac9bd20a844e60050bb8",
+    "url": "/static/js/2.c8724162.chunk.js"
   },
   {
-    "revision": "c522645fb1f6847e0f59",
-    "url": "/static/js/main.e4c00096.chunk.js"
+    "revision": "3688bf00c58cdce6c2cf",
+    "url": "/static/js/main.48657077.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -184,16 +184,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/mysql.27b0eaaa.svg"
   },
   {
+    "revision": "f355c52485ea5526d7a23d186ea09047",
+    "url": "/static/media/newprofile.f355c524.jpg"
+  },
+  {
     "revision": "e48e27f9d0eab488e665d8513578dfb5",
     "url": "/static/media/nextjs.e48e27f9.svg"
   },
   {
     "revision": "be2df79601b32143d336bd076429b909",
     "url": "/static/media/node-dot-js.be2df796.svg"
-  },
-  {
-    "revision": "986774cfea84e4509b1ae9eabe66506b",
-    "url": "/static/media/profile.986774cf.jpeg"
   },
   {
     "revision": "7ce8647be6bfaf16bc4ac35cbedf32bf",
@@ -244,11 +244,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/vue-dot-js.69cedcf3.svg"
   },
   {
-    "revision": "132d736209bf8964e30143213a6f608e",
-    "url": "/static/media/yalty.132d7362.png"
-  },
-  {
     "revision": "9f2a34b36ca0b941a1992b44d4e03a4d",
     "url": "/static/media/yalty.9f2a34b3.png"
+  },
+  {
+    "revision": "332f13620c518bf0d32f7f1fcc7fe4ea",
+    "url": "/static/media/yalty1.332f1362.jpg"
+  },
+  {
+    "revision": "b68986eae38b18256d64828dbe06f014",
+    "url": "/static/media/yalty1.b68986ea.jpg"
   }
 ]);
