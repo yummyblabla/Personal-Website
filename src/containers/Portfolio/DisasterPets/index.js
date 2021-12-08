@@ -45,10 +45,10 @@ export default function Yalty() {
           <p className="mb-3">
             The project is still in development.
           </p>
-          <div className="mb-3">
+          <div className="mb-5">
             <a href="https://disasterpets.net">
               <Button variant="outline-primary" className="newButton">
-                Main Website
+                See Live URL Here
               </Button>
             </a>
           </div>

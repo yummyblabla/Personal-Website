@@ -55,16 +55,16 @@ export default function AccuracyGame() {
             <p className="mb-0">
               Sound belongs to Mike Koenig on
               {' '}
-              <a href="http://soundbible.com/">SoundBible</a>
+              <a href="http://soundbible.com/" className="colorPrimary textUnderline">SoundBible</a>
             </p>
             <p className="mb-0">
               Art belongs to
               {' '}
-              <a href="mailto:hopstarter@gmail.com">Jojo Mendosa</a>
+              <a href="mailto:hopstarter@gmail.com" className="colorPrimary textUnderline">Jojo Mendosa</a>
               {' '}
               on
               {' '}
-              <a href="https://www.deviantart.com/hopstarter">DevianArt</a>
+              <a href="https://www.deviantart.com/hopstarter" className="colorPrimary textUnderline">DevianArt</a>
             </p>
           </div>
         </Col>

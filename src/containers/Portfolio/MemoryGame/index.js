@@ -39,7 +39,7 @@ export default function Mahjong() {
           <p className="mb-3">
             This game created for the Internet Software Architecture course at BCIT.
             We were tasked to create a game similar to this&nbsp;
-            <a href="https://www.youtube.com/watch?v=uNinYFJEAIM">video</a>
+            <a href="https://www.youtube.com/watch?v=uNinYFJEAIM" className="colorPrimary textUnderline">video</a>
             .
           </p>
           <p className="mb-3">
@@ -58,7 +58,7 @@ export default function Mahjong() {
               <Button variant="primary" className="mr-2 newButton">Play now!</Button>
             </a>
             <a href="https://github.com/yummyblabla/yummyblabla.github.io/tree/master/comp4537/MemoryGame">
-              <Button variant="outline-primary" className="newButton">
+              <Button variant="outline-primary" className="newButtonOutline">
                 <FontAwesomeIcon icon={faGithub} className="mr-1" />
                 GitHub
               </Button>

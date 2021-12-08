@@ -57,16 +57,16 @@ export default function Minesweeper() {
             <p className="mb-0">
               Sound belongs to Mike Koenig on
               {' '}
-              <a href="http://soundbible.com/">SoundBible</a>
+              <a href="http://soundbible.com/" className="colorPrimary textUnderline">SoundBible</a>
             </p>
             <p className="mb-0">
               Art belongs to
               {' '}
-              <a href="https://opengameart.org/users/eugeneloza">Eugene Loza</a>
+              <a href="https://opengameart.org/users/eugeneloza" className="colorPrimary textUnderline">Eugene Loza</a>
               {' '}
               on
               {' '}
-              <a href="https://www.deviantart.com/hopstarter">DevianArt</a>
+              <a href="https://www.deviantart.com/hopstarter" className="colorPrimary textUnderline">DevianArt</a>
             </p>
           </div>
         </Col>

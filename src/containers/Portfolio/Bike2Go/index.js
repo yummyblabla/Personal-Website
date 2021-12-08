@@ -40,7 +40,7 @@ export default function Bike2Go() {
           <p className="mb-3">
             This application was made for the
             {' '}
-            <a href="https://vancouver.ca/streets-transportation/decode-congestion-hackathon.aspx">Decode Congestion Hackathon</a>
+            <a href="https://vancouver.ca/streets-transportation/decode-congestion-hackathon.aspx" className="colorPrimary textUnderline">Decode Congestion Hackathon</a>
             {' '}
             hosted by City of Vancouver. We were engaged to provide tech solutions to decrease car congestion and promote other modes of transportation in Vancouver.
           </p>

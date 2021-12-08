@@ -45,7 +45,7 @@ export default function Mahjong() {
               <Button variant="primary" className="mr-2 newButton">Try Mahjong!</Button>
             </a>
             <a href="https://github.com/GamblingKings">
-              <Button variant="outline-primary" className="newButton">
+              <Button variant="outline-primary" className="newButtonOutline">
                 <FontAwesomeIcon icon={faGithub} className="mr-1" />
                 GitHub
               </Button>

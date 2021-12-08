@@ -70,14 +70,14 @@ export default function Home() {
                 <Row>
                   <Col md={8} className="order-2 order-sm-12">
                     <p>
-                      Nice to meet you, I am Derrick 🙋‍♂️. I am a Full Stack Developer with 2+ years
+                      Nice to meet you, I am Derrick 🙋🏻‍♂️. I am a Full Stack Developer with 2+ years
                       of working experience, specializing in backend infrastructure. Having
                       first hand experience in designing, developing, and implementing solutions
                       for various applications, led me to become a holistic systems thinker.
                       <br />
                       <br />
                       Using a wide range of technologies and programming languages like Node.js,
-                      Python, as well as, AWS motivates me to learn new things and
+                      Python, as well as Serverless deployment motivates me to learn new things and
                       constantly improve myself.
                       <br />
                       <br />
@@ -91,7 +91,6 @@ export default function Home() {
                       <a href="https://www.credly.com/badges/21208b92-4684-4281-a750-fce3246edcea" className="colorPrimary textUnderline">AWS Solutions Architect Associate</a>
                       , and am currently a candidate for AWS Architecture Professional; to be completed by March of 2022.
                     </p>
-                    <br />
                     <a href={RESUME_LINK}>
                       <Button variant="primary" className="mt-4 newButton">
                         Download Resume
@@ -194,7 +193,7 @@ export default function Home() {
 
           <div className="mb-5 item pt-3">
             <section id="portfolio">
-              <h3 className="mt-3 mb-3 pl-4">Portfolio</h3>
+              <h3 className="mt-3 mb-3 pl-4 text-center">Portfolio</h3>
 
               <div>
                 <Row className="d-flex flex-row pl-3 pr-3">
@@ -217,9 +216,12 @@ export default function Home() {
                     description="React + Firebase + Google Cloud Platform"
                   />
                 </Row>
+
+              </div>
+              <div className="text-center mt-2 mb-3">
                 <Link to="./portfolio">
                   <Button variant="primary" className="mb-3 newButton ml-4">
-                    See more...
+                    See More Projects
                   </Button>
                 </Link>
               </div>

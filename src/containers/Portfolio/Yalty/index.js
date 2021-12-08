@@ -37,10 +37,10 @@ export default function Yalty() {
           <p className="mb-3">Because it was serverless, we used DynamoDB, API Gateway, Lambda, and Cognito for the backend resources. S3, and CloudFront were resources to host our React application. Terraform along with AWS CodePipeline were used for managing our resources and CICD.</p>
           <p className="mb-3">We worked closely with our supervisor to stay on task and meet the goals of our sprint. I acted as a team lead to communicate our progress to the project stakeholders and to ensure that we complete our deliverables by the project deadline. </p>
           <p className="mb-3">Overall, everybody on the team learned a lot about AWS, and this prompted the whole team to complete the certification for AWS Solutions Architect Associate, which we all passed.</p>
-          <div className="mb-3">
+          <div className="mb-5">
             <a href="https://user.yalty.mobi/">
               <Button variant="outline-primary" className="newButton">
-                Link
+                See Live URL Here
               </Button>
             </a>
           </div>

@@ -46,6 +46,20 @@ export default function Footer() {
             <h4>Portfolio</h4>
             <Row>
               <Col sm className="d-flex flex-column">
+                <Link to="/portfolio/disasterpets" className="footerLink">
+                  Disaster Pets
+                </Link>
+                <Link to="/portfolio/yalty" className="footerLink">
+                  Yalty Software
+                </Link>
+                <Link to="/portfolio/bike2go" className="footerLink">
+                  Bike2Go
+                </Link>
+                <Link to="/portfolio/studybreak" className="footerLink">
+                  StudyBreak
+                </Link>
+              </Col>
+              <Col sm className="d-flex flex-column">
                 <Link to="/portfolio/memorygame" className="footerLink">
                   Memory Game
                 </Link>
@@ -60,20 +74,6 @@ export default function Footer() {
                 </Link>
                 <Link to="/portfolio/accuracygame" className="footerLink">
                   Accuracy Game
-                </Link>
-              </Col>
-              <Col sm className="d-flex flex-column">
-                <Link to="/portfolio/disasterpets" className="footerLink">
-                  Disaster Pets
-                </Link>
-                <Link to="/portfolio/yalty" className="footerLink">
-                  Yalty Software
-                </Link>
-                <Link to="/portfolio/bike2go" className="footerLink">
-                  Bike2Go
-                </Link>
-                <Link to="/portfolio/studybreak" className="footerLink">
-                  StudyBreak
                 </Link>
               </Col>
             </Row>

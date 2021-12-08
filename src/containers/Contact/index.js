@@ -41,20 +41,19 @@ export default function Contact() {
           <Col sm className="m-3">
             <h3 className="my-3">Links</h3>
             <p className="mb-3">
-              You can contact me on whichever platform you find convenient
-              below.
+              Liking what you’re seeing? Drop me a line below, or feel free to get in touch!
             </p>
             <a href="https://www.linkedin.com/in/derricklee91">
               <Image
                 src={require('../../assets/icons/linkedin.svg')}
-                className="linkIcon mr-3"
+                className="linkIconContact mr-3"
               />
               <span className="text colorPrimary">Linkedin</span>
             </a>
             <div>
               <Image
                 src={require('../../assets/icons/gmail.svg')}
-                className="linkIcon mr-3"
+                className="linkIconContact mr-3"
               />
               <span className="text">E-mail: </span>
               <a href="mailto:derricklee91@gmail.com">
@@ -101,7 +100,7 @@ export default function Contact() {
                 />
               </Form.Group>
 
-              <Button onClick={sendMessage}>Submit</Button>
+              <Button onClick={sendMessage} className="newButton">Submit</Button>
             </Form>
           </Col>
         </Row>

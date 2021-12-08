@@ -471,6 +471,19 @@ li,
   color: #102a4c;
 }
 
+.newButtonOutline {
+  background-color: #ffffff;
+  border-color: #102a4c;
+  color: #102a4c;
+  font-family: 'Lato';
+}
+
+.newButtonOutline:hover {
+  border-color: #102a4c;
+  background-color: #102a4c;
+  color: #fff
+}
+
 .colorPrimary {
   color: #102a4c;
 }
@@ -481,4 +494,13 @@ li,
 
 .textUnderline {
   text-decoration: underline;
+}
+
+.linkIconContact {
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #102a4c;
+  position: relative;
 }
